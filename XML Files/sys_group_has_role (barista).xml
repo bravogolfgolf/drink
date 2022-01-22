@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-01-22 19:29:58">
+<sys_group_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value=""/>
+<group display_value="Drink Barista" name="Drink Barista">6007d0181b1101106c166464604bcb00</group>
+<inherits>true</inherits>
+<role display_value="x_402400_drink.barista" name="x_402400_drink.barista">da031c141b1101106c166464604bcb43</role>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-22 19:28:37</sys_created_on>
+<sys_id>aed818581b1101106c166464604bcb4d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-22 19:28:37</sys_updated_on>
+</sys_group_has_role>
+</unload>

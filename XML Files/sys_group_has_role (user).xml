@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-01-22 19:32:14">
+<sys_group_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value=""/>
+<group display_value="Drink User" name="Drink User">a1a654181b1101106c166464604bcbfc</group>
+<inherits>true</inherits>
+<role display_value="x_402400_drink.user" name="x_402400_drink.user">7ae250541b1101106c166464604bcbb9</role>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-22 19:31:08</sys_created_on>
+<sys_id>636998581b1101106c166464604bcb72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-22 19:31:08</sys_updated_on>
+</sys_group_has_role>
+</unload>
