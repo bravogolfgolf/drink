@@ -4,6 +4,7 @@
         <element label="Carbohydrates" max_length="40" name="carbohydrates" type="integer"/>
         <element label="Fat" max_length="40" name="fat" type="integer"/>
         <element label="Fiber" max_length="40" name="fiber" type="integer"/>
+        <element attributes="pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element label="Protein" max_length="40" name="protein" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="short_description" type="string"/>
