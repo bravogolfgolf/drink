@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Drink M2m Drinks Orders" max_length="40" name="x_402400_drink_m2m_drinks_orders" type="collection">
+        <element attributes="encode_utf8=false" label="Drinks" max_length="32" name="drinks" reference="x_402400_drink_drinks" type="reference"/>
+        <element attributes="encode_utf8=false" label="Orders" max_length="32" name="orders" reference="x_402400_drink_orders" type="reference"/>
+        <index name="index">
+            <element name="drinks"/>
+        </index>
+        <index name="index2">
+            <element name="orders"/>
+        </index>
+    </element>
+</database>
