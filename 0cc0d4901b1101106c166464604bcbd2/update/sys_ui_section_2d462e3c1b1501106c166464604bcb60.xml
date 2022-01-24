@@ -4,85 +4,141 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-01-24 19:03:28</sys_created_on>
-            <sys_id>2546627c1b1501106c166464604bcb1d</sys_id>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>05182abc1b1501106c166464604bcb43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-01-24 19:03:28</sys_updated_on>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>drinks</element>
+            <element>drinks.image</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-01-24 19:03:28</sys_created_on>
-            <sys_id>2d46627c1b1501106c166464604bcb1d</sys_id>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>85182abc1b1501106c166464604bcb43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-01-24 19:03:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>orders</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-01-24 19:03:28</sys_created_on>
-            <sys_id>ad46627c1b1501106c166464604bcb1d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-01-24 19:03:28</sys_updated_on>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-01-24 19:03:28</sys_created_on>
-            <sys_id>2146627c1b1501106c166464604bcb1e</sys_id>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>09182abc1b1501106c166464604bcb43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-01-24 19:03:28</sys_updated_on>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>size</element>
-            <position>4</position>
+            <element>drinks.calories</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-01-24 19:03:28</sys_created_on>
-            <sys_id>a146627c1b1501106c166464604bcb1e</sys_id>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>89182abc1b1501106c166464604bcb43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-01-24 19:03:28</sys_updated_on>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drinks.carbohydrates</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>0d182abc1b1501106c166464604bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drinks.fat</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>8d182abc1b1501106c166464604bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drinks.fiber</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>01182abc1b1501106c166464604bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drinks.protein</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>81182abc1b1501106c166464604bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-01-24 19:03:28</sys_created_on>
-            <sys_id>2546627c1b1501106c166464604bcb1e</sys_id>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>05182abc1b1501106c166464604bcb44</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-01-24 19:03:28</sys_updated_on>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drinks.short_description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-24 19:11:21</sys_created_on>
+            <sys_id>85182abc1b1501106c166464604bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_402400_drink_m2m_drinks_orders" sys_domain="global" view="Default view">2d462e3c1b1501106c166464604bcb60</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-24 19:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
