@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>All Drinks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_402400_drink.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-22 19:54:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7be54dc1b1101106c166464604bcbe0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>All Drinks</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_ui_module_f7be54dc1b1101106c166464604bcbe0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 13:54:00</sys_updated_on>
+        <table>x_402400_drink_drinks</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>037add74db083c50601a11f848961964</instance_id>
+        <instance_name>dev114172</instance_name>
+        <name>sys_ui_module_f7be54dc1b1101106c166464604bcbe0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>All Drinks</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_402400_drink.user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-22 19:54:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f7be54dc1b1101106c166464604bcbe0</sys_id><sys_mod_count>4</sys_mod_count><sys_name>All Drinks</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_ui_module_f7be54dc1b1101106c166464604bcbe0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:54:00</sys_updated_on><table>x_402400_drink_drinks</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1148328534</payload_hash>
+        <record_name>All Drinks</record_name>
+        <reverted_from/>
+        <source>3f1190d01b1101106c166464604bcb75</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 14:32:55</sys_created_on>
+        <sys_id>ae5821b41b5101106c166464604bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e8c8110d80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 14:32:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ea5821b4a3510110c331deba87bf9296</update_guid>
+        <update_guid_history>ea5821b4a3510110c331deba87bf9296:0,107f95bca3110110d2a85ec498afd5a5:-738604203,243f91bcbe110110d2d57314a52ed79c:-1961652395,f555dd34b5110110bb8c366755a27b35:-738604203,6fbf14103a5101102aaf28807bab6984:-257522272,77be54dcff110110a46da2d0d1ac86ef:419013952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 14:33:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>ae3e9fc467a24e14bf8d4bc7106e8810</sys_id>
+        <sys_metadata>f7be54dc1b1101106c166464604bcbe0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Drinks</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_ui_module_f7be54dc1b1101106c166464604bcbe0</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_f7be54dc1b1101106c166464604bcbe0">ae5821b41b5101106c166464604bcb96</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 14:33:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
