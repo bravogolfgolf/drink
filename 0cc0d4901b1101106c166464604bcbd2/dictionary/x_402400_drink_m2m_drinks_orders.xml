@@ -2,6 +2,9 @@
     <element label="Drink M2m Drinks Orders" max_length="40" name="x_402400_drink_m2m_drinks_orders" type="collection">
         <element attributes="encode_utf8=false" label="Drinks" max_length="32" name="drinks" reference="x_402400_drink_drinks" type="reference"/>
         <element attributes="encode_utf8=false" label="Orders" max_length="32" name="orders" reference="x_402400_drink_orders" type="reference"/>
+        <element choice="1" label="Size" max_length="40" name="size" reference="x_402400_drink_drink_sizes" type="reference">
+            <choice/>
+        </element>
         <index name="index">
             <element name="drinks"/>
         </index>
