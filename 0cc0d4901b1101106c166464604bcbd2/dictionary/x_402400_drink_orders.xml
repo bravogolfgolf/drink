@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Orders" max_length="40" name="x_402400_drink_orders" type="collection">
+    <element extends="task" label="Orders" max_length="40" name="x_402400_drink_orders" sizeclass="0" type="collection">
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Drinks" max_length="1024" name="drinks" reference="x_402400_drink_m2m_drinks_orders" type="glide_list"/>
-        <element attributes="encode_utf8=false" label="Order for" max_length="32" name="order_for" reference="sys_user" reference_qual="roles=x_402400_drink.user^EQ" reference_qual_condition="roles=x_402400_drink.user^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Order for" max_length="32" name="order_for" reference="sys_user" reference_qual="roles=x_402400_drink.user^EQ" reference_qual_condition="roles=x_402400_drink.user^EQ" type="reference" use_dynamic_default="true"/>
     </element>
 </database>

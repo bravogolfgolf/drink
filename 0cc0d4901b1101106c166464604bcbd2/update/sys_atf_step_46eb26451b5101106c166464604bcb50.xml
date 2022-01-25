@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
+        <copied_from display_value="Field State Validation">af1525f01b5101106c166464604bcb16</copied_from>
         <description>Assert the following:
 The following fields are visible: Number, Order for, State, Approval, Assigned to, Assignment group, Short description
 The following fields are not visible: Active, Activity due, Actual end, Actual start, Additional assignee list, Additional comments, Approval history, Approval set, Business duration, Close notes, Closed, Closed by, Comments and Work notes, Company, Configuration item, Contact type, Contract, Correlation ID, Correlation display, Created, Created by, Delivery plan, Delivery task, Description, Domain, Domain Path, Due date, Duration, Effective number, Escalation, Expected start, Follow up, Group list, Impact, Knowledge, Location, Made SLA, Opened, Opened by, Order, Parent, Priority, Reassignment count, SLA due, Service, Service offering, Tags, Task type, Time worked, Transfer reason, Universal Request, Updated, Updated by, Updates, Upon approval, Upon reject, Urgency, User input, Watch list, Work notes, Work notes list
-The following fields are read only: Number, State, Approval, Assigned to
-The following fields are not read only: Order for, Assignment group, Short description
+The following fields are read only: Number, State, Assigned to
+The following fields are not read only: Order for, Approval, Assignment group, Short description
 The following fields are not mandatory: Number, Order for, State, Approval, Assignment group, Assigned to, Short description
 With a failure timeout of 5 Seconds</description>
         <display_name>Field State Validation</display_name>
@@ -18,131 +18,131 @@ With a failure timeout of 5 Seconds</description>
         <step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>af1525f01b5101106c166464604bcb16</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>46eb26451b5101106c166464604bcb50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Field State Validation</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
-        <sys_update_name>sys_atf_step_af1525f01b5101106c166464604bcb16</sys_update_name>
+        <sys_update_name>sys_atf_step_46eb26451b5101106c166464604bcb50</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-25 13:44:04</sys_updated_on>
+        <sys_updated_on>2022-01-25 14:17:09</sys_updated_on>
         <table>x_402400_drink_orders</table>
-        <test display_value="Standard UI - Orders Form - User">69a4e5b01b5101106c166464604bcb88</test>
+        <test display_value="Standard UI - Orders Form - Admin">42eb22451b5101106c166464604bcb39</test>
         <timeout>1970-01-01 00:00:05</timeout>
         <warning_message/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=af1525f01b5101106c166464604bcb16"/>
+    <sys_variable_value action="delete_multiple" query="document_key=46eb26451b5101106c166464604bcb50"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>af1525f01b5101106c166464604bcb16</document_key>
+        <document_key>46eb26451b5101106c166464604bcb50</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>2285a5f01b5101106c166464604bcb3b</sys_id>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>02eb26451b5101106c166464604bcb52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 14:20:38</sys_updated_on>
+        <sys_updated_on>2022-01-25 14:06:33</sys_updated_on>
         <value/>
         <variable display_value="Mandatory">6e5a1b535320220002c6435723dc3498</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>af1525f01b5101106c166464604bcb16</document_key>
+        <document_key>46eb26451b5101106c166464604bcb50</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>2685a5f01b5101106c166464604bcb3a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>06eb26451b5101106c166464604bcb51</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-25 13:44:04</sys_updated_on>
-        <value>number,state,approval,assigned_to</value>
+        <sys_updated_on>2022-01-25 14:17:09</sys_updated_on>
+        <value>number,state,assigned_to</value>
         <variable display_value="Read only">592a17535320220002c6435723dc34d7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>af1525f01b5101106c166464604bcb16</document_key>
+        <document_key>46eb26451b5101106c166464604bcb50</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>6285a5f01b5101106c166464604bcb3a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>42eb26451b5101106c166464604bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 20:05:12</sys_updated_on>
+        <sys_updated_on>2022-01-25 14:06:33</sys_updated_on>
         <value>number,order_for,state,approval,assigned_to,assignment_group,short_description</value>
         <variable display_value="Visible">0cd9df135320220002c6435723dc3426</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>af1525f01b5101106c166464604bcb16</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>6e85a5f01b5101106c166464604bcb39</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 14:20:38</sys_updated_on>
-        <value>standard_ui</value>
-        <variable display_value="Form UI">b1fefcde73633300b19898b8caf6a7af</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_atf_step</document>
-        <document_key>af1525f01b5101106c166464604bcb16</document_key>
+        <document_key>46eb26451b5101106c166464604bcb50</document_key>
         <order>310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>6e85a5f01b5101106c166464604bcb3a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>4eeb26451b5101106c166464604bcb51</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-25 13:44:04</sys_updated_on>
-        <value>order_for,assignment_group,short_description</value>
+        <sys_updated_on>2022-01-25 14:17:09</sys_updated_on>
+        <value>order_for,approval,assignment_group,short_description</value>
         <variable display_value="Not read only">e63a97535320220002c6435723dc34b8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>af1525f01b5101106c166464604bcb16</document_key>
+        <document_key>46eb26451b5101106c166464604bcb50</document_key>
         <order>410</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>aa85a5f01b5101106c166464604bcb3a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>8aeb26451b5101106c166464604bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 14:25:07</sys_updated_on>
+        <sys_updated_on>2022-01-25 14:06:33</sys_updated_on>
         <value>number,order_for,state,approval,assignment_group,assigned_to,short_description</value>
         <variable display_value="Not mandatory">787a9b535320220002c6435723dc3455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>af1525f01b5101106c166464604bcb16</document_key>
+        <document_key>46eb26451b5101106c166464604bcb50</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>8eeb26451b5101106c166464604bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 14:06:33</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">b1fefcde73633300b19898b8caf6a7af</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>46eb26451b5101106c166464604bcb50</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>e285a5f01b5101106c166464604bcb3b</sys_id>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>c2eb26451b5101106c166464604bcb52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 14:20:38</sys_updated_on>
+        <sys_updated_on>2022-01-25 14:06:33</sys_updated_on>
         <value>x_402400_drink_orders</value>
         <variable display_value="Table">80f953535320220002c6435723dc340f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>af1525f01b5101106c166464604bcb16</document_key>
+        <document_key>46eb26451b5101106c166464604bcb50</document_key>
         <order>210</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-24 14:20:38</sys_created_on>
-        <sys_id>e685a5f01b5101106c166464604bcb3a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-01-25 14:06:33</sys_created_on>
+        <sys_id>c6eb26451b5101106c166464604bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 14:22:08</sys_updated_on>
+        <sys_updated_on>2022-01-25 14:06:33</sys_updated_on>
         <value>active,activity_due,work_end,work_start,additional_assignee_list,comments,approval_history,approval_set,business_duration,close_notes,closed_at,closed_by,comments_and_work_notes,company,cmdb_ci,contact_type,contract,correlation_id,correlation_display,sys_created_on,sys_created_by,delivery_plan,delivery_task,description,sys_domain,sys_domain_path,due_date,calendar_duration,task_effective_number,escalation,expected_start,follow_up,group_list,impact,knowledge,location,made_sla,opened_at,opened_by,order,parent,priority,reassignment_count,sla_due,business_service,service_offering,sys_tags,sys_class_name,time_worked,route_reason,universal_request,sys_updated_on,sys_updated_by,sys_mod_count,upon_approval,upon_reject,urgency,user_input,watch_list,work_notes,work_notes_list</value>
         <variable display_value="Not visible">e81ad3535320220002c6435723dc340c</variable>
     </sys_variable_value>
