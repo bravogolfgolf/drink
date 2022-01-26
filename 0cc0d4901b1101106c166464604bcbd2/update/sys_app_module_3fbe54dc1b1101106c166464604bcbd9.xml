@@ -13,28 +13,28 @@
         <mobile_title>Drinks</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_402400_drink_drinks</name>
-        <order>300</order>
+        <order>20</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_402400_drink.user</roles>
+        <roles>x_402400_drink.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-22 19:54:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3fbe54dc1b1101106c166464604bcbd9</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>All Drinks</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Drinks</sys_name>
         <sys_overrides/>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_app_module_3fbe54dc1b1101106c166464604bcbd9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-26 19:18:53</sys_updated_on>
+        <sys_updated_on>2022-01-26 20:22:23</sys_updated_on>
         <timeline_page/>
-        <title>All Drinks</title>
+        <title>Drinks</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
