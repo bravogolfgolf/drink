@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Navigate to the 'My Open Orders' module in the 'Drink Management' application</description>
+        <display_name>Navigate to Module</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>18</order>
+        <snapshot/>
+        <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 14:19:05</sys_created_on>
+        <sys_id>3248bb591b1101106c166464604bcb08</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_3248bb591b1101106c166464604bcb08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 14:27:57</sys_updated_on>
+        <table>x_402400_drink_orders</table>
+        <test display_value="Standard UI - New Order - User">69a4e5b01b5101106c166464604bcb88</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=3248bb591b1101106c166464604bcb08"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>3248bb591b1101106c166464604bcb08</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 14:19:05</sys_created_on>
+        <sys_id>9358f7591b1101106c166464604bcb24</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 14:27:57</sys_updated_on>
+        <value>acba9eb01b1501106c166464604bcb55</value>
+        <variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=3248bb591b1101106c166464604bcb08"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>037add74db083c50601a11f848961964</instance_id>
+        <instance_name>dev114172</instance_name>
+        <name>sys_atf_step_3248bb591b1101106c166464604bcb08</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Navigate to the 'My Open Orders' module in the 'Drink Management' application</description><display_name>Navigate to Module</display_name><inputs/><mugshots_cache_json/><notes/><order>18</order><snapshot/><step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 14:19:05</sys_created_on><sys_id>3248bb591b1101106c166464604bcb08</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Navigate to Module</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_step_3248bb591b1101106c166464604bcb08</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 14:27:57</sys_updated_on><table>x_402400_drink_orders</table><test display_value="Standard UI - New Order - User">69a4e5b01b5101106c166464604bcb88</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=3248bb591b1101106c166464604bcb08"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3248bb591b1101106c166464604bcb08</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 14:19:05</sys_created_on><sys_id>9358f7591b1101106c166464604bcb24</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 14:27:57</sys_updated_on><value>acba9eb01b1501106c166464604bcb55</value><variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=3248bb591b1101106c166464604bcb08"/></record_update>]]></payload>
+        <payload_hash>-764507826</payload_hash>
+        <record_name>Navigate to Module</record_name>
+        <reverted_from/>
+        <source>3f1190d01b1101106c166464604bcb75</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 14:27:57</sys_created_on>
+        <sys_id>916abfd91b1101106c166464604bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e96c93b7d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 14:27:57</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>596abfd9941101100753efb5b4491a42</update_guid>
+        <update_guid_history>596abfd9941101100753efb5b4491a42:-764507826,d0d8739953110110bd3f8f28448e7d57:-1013289652,1f58bf593e11011097a21477df5a0c24:1271448122</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 19:44:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>3d9c03fd600040979c0103977d5f7cd9</sys_id>
+        <sys_metadata>3248bb591b1101106c166464604bcb08</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_step_3248bb591b1101106c166464604bcb08</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_3248bb591b1101106c166464604bcb08">916abfd91b1101106c166464604bcb43</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 19:44:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

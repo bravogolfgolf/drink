@@ -2,7 +2,7 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from display_value="Module Visibility">b739bd741b9101106c166464604bcbc2</copied_from>
-        <description>Confirm that at least the following modules are visible in UI16: All Drinks, Barista, My Open Orders, My Groups Open Orders (Unassigned), User, Place An Order, My Open Orders, Admin, Drink Sizes</description>
+        <description>Confirm that at least the following modules are visible in UI16: Admin, Drink Sizes, Barista, Assigned Orders, Unassigned Orders, All Open Orders, User, Place An Order, My Open Orders, All Drinks</description>
         <display_name>Module Visibility</display_name>
         <inputs/>
         <mugshots_cache_json/>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-26 13:51:37</sys_created_on>
         <sys_id>8912f7d11b1101106c166464604bcbfb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Module Visibility</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_8912f7d11b1101106c166464604bcbfb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-26 14:03:11</sys_updated_on>
+        <sys_updated_on>2022-01-26 19:35:58</sys_updated_on>
         <table/>
         <test display_value="Navigation - Admin">70123f911b1101106c166464604bcb55</test>
         <timeout/>
@@ -36,10 +36,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-26 13:51:37</sys_created_on>
         <sys_id>0112f7d11b1101106c166464604bcbfe</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-26 14:03:11</sys_updated_on>
-        <value>3fbe54dc1b1101106c166464604bcbd9,dc87f1341b9101106c166464604bcb9d,ca5af9b41b9101106c166464604bcb93,aa1d7d381b9101106c166464604bcb0f,6f689a301b1501106c166464604bcbf3,b2699e701b1501106c166464604bcbdb,acba9eb01b1501106c166464604bcb55,26d17b911b1101106c166464604bcbbb,297377151b1101106c166464604bcbce</value>
+        <sys_updated_on>2022-01-26 19:35:58</sys_updated_on>
+        <value>26d17b911b1101106c166464604bcbbb,297377151b1101106c166464604bcbce,dc87f1341b9101106c166464604bcb9d,439e2ce91bd101106c166464604bcb10,aa1d7d381b9101106c166464604bcb0f,f9a9dd381b1101106c166464604bcb41,6f689a301b1501106c166464604bcbf3,b2699e701b1501106c166464604bcbdb,acba9eb01b1501106c166464604bcb55,3fbe54dc1b1101106c166464604bcbd9</value>
         <variable display_value="Visible modules">4a3319d73702030064a52f3c8e41f1a9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
