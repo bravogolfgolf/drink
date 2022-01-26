@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 13:47:34</sys_created_on>
+        <sys_id>616726011b5101106c166464604bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_402400_drink.admin</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_security_acl display_value="">8967eecd1b1101106c166464604bcb95</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_616726011b5101106c166464604bcb9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 13:47:34</sys_updated_on>
+        <sys_user_role display_value="x_402400_drink.admin" name="x_402400_drink.admin">a59c5e451b1101106c166464604bcb56</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>037add74db083c50601a11f848961964</instance_id>
+        <instance_name>dev114172</instance_name>
+        <name>sys_security_acl_role_616726011b5101106c166464604bcb9c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-25 13:47:34</sys_created_on><sys_id>616726011b5101106c166464604bcb9c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_402400_drink.admin</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_security_acl display_value="">8967eecd1b1101106c166464604bcb95</sys_security_acl><sys_update_name>sys_security_acl_role_616726011b5101106c166464604bcb9c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 13:47:34</sys_updated_on><sys_user_role display_value="x_402400_drink.admin" name="x_402400_drink.admin">a59c5e451b1101106c166464604bcb56</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-532665739</payload_hash>
+        <record_name>.x_402400_drink.admin</record_name>
+        <reverted_from/>
+        <source>3f1190d01b1101106c166464604bcb75</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 13:47:34</sys_created_on>
+        <sys_id>4c97e6011b5101106c166464604bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e917de5f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 13:47:34</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>8497e601c951011061f9658c3530cc9f</update_guid>
+        <update_guid_history>8497e601c951011061f9658c3530cc9f:-532665739</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_402400_drink.admin">dac0d1e91b5501106c166464604bcb4d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 20:45:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>00dedb9e125b4204800386da5cf0cf10</sys_id>
+        <sys_metadata>616726011b5101106c166464604bcb9c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_402400_drink.admin</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent display_value="x_402400_drink_orders.approval">8967eecd1b1101106c166464604bcb95</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_616726011b5101106c166464604bcb9c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_616726011b5101106c166464604bcb9c">4c97e6011b5101106c166464604bcb9f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 20:45:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
