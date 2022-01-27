@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Table tests</notes>
+        <order>6</order>
+        <snapshot/>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 21:18:09</sys_created_on>
+        <sys_id>37d1a6711b5501106c166464604bcb8a</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_37d1a6711b5501106c166464604bcb8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 23:45:18</sys_updated_on>
+        <table/>
+        <test display_value="Environment">8d6298141b1101106c166464604bcbba</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=37d1a6711b5501106c166464604bcb8a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>37d1a6711b5501106c166464604bcb8a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 21:18:10</sys_created_on>
+        <sys_id>0ce1a6711b5501106c166464604bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 21:18:10</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>37d1a6711b5501106c166464604bcb8a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 21:18:10</sys_created_on>
+        <sys_id>c0e1a6711b5501106c166464604bcba6</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 23:45:18</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+    describe('Count of fields', function() {&#13;
+&#13;
+        it('tables in application has not changed', function() {&#13;
+            var drinkApplicationSysId = '0cc0d4901b1101106c166464604bcbd2';&#13;
+            var gaSysDbObject = new GlideAggregate('sys_db_object');&#13;
+            gaSysDbObject.addQuery('sys_scope', '=', drinkApplicationSysId);&#13;
+            gaSysDbObject.addAggregate('COUNT');&#13;
+            gaSysDbObject.query();&#13;
+            var expected = '4';&#13;
+            var count = 0;&#13;
+            if (gaSysDbObject.next()) {&#13;
+                count = gaSysDbObject.getAggregate('COUNT');&#13;
+            }&#13;
+            expect(count).toBe(expected);&#13;
+        });&#13;
+&#13;
+        it('fields in Drink M2m Drinks Orders table has not change', function() {&#13;
+            fieldsExpectedCount('x_402400_drink_m2m_drinks_orders', '10');&#13;
+        });&#13;
+&#13;
+        it('fields in Drink Sizes table has not change', function() {&#13;
+            fieldsExpectedCount('x_402400_drink_drink_sizes', '8');&#13;
+        });&#13;
+&#13;
+        it('fields in Drinks table has not change', function() {&#13;
+            fieldsExpectedCount('x_402400_drink_drinks', '15');&#13;
+        });&#13;
+&#13;
+        it('fields in Orders tables has not change', function() {&#13;
+            fieldsExpectedCount('x_402400_drink_orders', '4');&#13;
+        });&#13;
+    });&#13;
+&#13;
+    function fieldsExpectedCount(table, expected) {&#13;
+        var gaSysDictionary = new GlideAggregate('sys_dictionary');&#13;
+        gaSysDictionary.addQuery('name', '=', table);&#13;
+        gaSysDictionary.addAggregate('COUNT');&#13;
+        gaSysDictionary.query();&#13;
+        var count = 0;&#13;
+        if (gaSysDictionary.next()) {&#13;
+            count = gaSysDictionary.getAggregate('COUNT');&#13;
+        }&#13;
+        expect(count).toBe(expected);&#13;
+    }&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+jasmine.getEnv().execute();</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+</record_update>
