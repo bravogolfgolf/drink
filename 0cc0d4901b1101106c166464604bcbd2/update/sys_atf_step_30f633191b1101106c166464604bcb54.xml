@@ -2,28 +2,28 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description>Navigate to the 'My Open Orders' module in the 'Drink Management' application</description>
+        <description>Navigate to the 'My Orders' module in the 'Drink Management' application</description>
         <display_name>Navigate to Module</display_name>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>16</order>
+        <order>19</order>
         <snapshot/>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-26 14:13:20</sys_created_on>
         <sys_id>30f633191b1101106c166464604bcb54</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Navigate to Module</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_30f633191b1101106c166464604bcb54</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-26 19:42:59</sys_updated_on>
+        <sys_updated_on>2022-01-27 15:21:30</sys_updated_on>
         <table>x_402400_drink_orders</table>
-        <test display_value="Standard UI - New Order - User">69a4e5b01b5101106c166464604bcb88</test>
+        <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

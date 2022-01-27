@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Assert the following:
+The following fields are visible: Orders, Drinks, Size
+The following fields are not visible: Drinks.Calories, Drinks.Carbohydrates, Drinks.Fat, Drinks.Fiber, Drinks.Protein, Created, Created by, Tags, Updated, Updated by, Updates
+The following fields are not read only: Drinks, Size, Orders
+The following fields are not mandatory: Drinks, Size, Orders
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field State Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>12</order>
+        <snapshot/>
+        <step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:45</sys_created_on>
+        <sys_id>2dfe45f91b1101106c166464604bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field State Validation</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_2dfe45f91b1101106c166464604bcb30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:45</sys_updated_on>
+        <table>x_402400_drink_m2m_drinks_orders</table>
+        <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2dfe45f91b1101106c166464604bcb30"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2dfe45f91b1101106c166464604bcb30</document_key>
+        <order>410</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:46</sys_created_on>
+        <sys_id>346f813d1b1101106c166464604bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:46</sys_updated_on>
+        <value>drinks,size,orders</value>
+        <variable display_value="Not mandatory">787a9b535320220002c6435723dc3455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2dfe45f91b1101106c166464604bcb30</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:46</sys_created_on>
+        <sys_id>386f813d1b1101106c166464604bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:46</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">b1fefcde73633300b19898b8caf6a7af</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2dfe45f91b1101106c166464604bcb30</document_key>
+        <order>210</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:46</sys_created_on>
+        <sys_id>706f813d1b1101106c166464604bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:46</sys_updated_on>
+        <value>drinks.calories,drinks.carbohydrates,drinks.fat,drinks.fiber,drinks.protein,sys_created_on,sys_created_by,sys_tags,sys_updated_on,sys_updated_by,sys_mod_count</value>
+        <variable display_value="Not visible">e81ad3535320220002c6435723dc340c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2dfe45f91b1101106c166464604bcb30</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:46</sys_created_on>
+        <sys_id>7c6f813d1b1101106c166464604bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:46</sys_updated_on>
+        <value>x_402400_drink_m2m_drinks_orders</value>
+        <variable display_value="Table">80f953535320220002c6435723dc340f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2dfe45f91b1101106c166464604bcb30</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:46</sys_created_on>
+        <sys_id>b86f813d1b1101106c166464604bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:46</sys_updated_on>
+        <value/>
+        <variable display_value="Mandatory">6e5a1b535320220002c6435723dc3498</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2dfe45f91b1101106c166464604bcb30</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:46</sys_created_on>
+        <sys_id>bc6f813d1b1101106c166464604bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:46</sys_updated_on>
+        <value/>
+        <variable display_value="Read only">592a17535320220002c6435723dc34d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2dfe45f91b1101106c166464604bcb30</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:46</sys_created_on>
+        <sys_id>f46f813d1b1101106c166464604bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:46</sys_updated_on>
+        <value>drinks,size,orders</value>
+        <variable display_value="Not read only">e63a97535320220002c6435723dc34b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2dfe45f91b1101106c166464604bcb30</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:17:46</sys_created_on>
+        <sys_id>f86f813d1b1101106c166464604bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:17:46</sys_updated_on>
+        <value>orders,drinks,size</value>
+        <variable display_value="Visible">0cd9df135320220002c6435723dc3426</variable>
+    </sys_variable_value>
+</record_update>
