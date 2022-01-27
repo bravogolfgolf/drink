@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-22 20:03:35</sys_created_on>
         <sys_id>b6b0e8101b5101106c166464604bcbd3</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Application Menu Visibility</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_b6b0e8101b5101106c166464604bcbd3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-24 17:57:10</sys_updated_on>
+        <sys_updated_on>2022-01-27 20:31:01</sys_updated_on>
         <table/>
         <test display_value="Navigation - User">01502c101b5101106c166464604bcbad</test>
         <timeout/>
