@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Impersonate the user: {{Step 2: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>31</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 15:26:08</sys_created_on>
+        <sys_id>52da9e8a2f9101105f83e93df699b6a7</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_52da9e8a2f9101105f83e93df699b6a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 15:34:44</sys_updated_on>
+        <table/>
+        <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=52da9e8a2f9101105f83e93df699b6a7"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>52da9e8a2f9101105f83e93df699b6a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 15:26:08</sys_created_on>
+        <sys_id>85ea5e8a2f9101105f83e93df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 15:26:08</sys_updated_on>
+        <value/>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=52da9e8a2f9101105f83e93df699b6a7"/>
+    <sys_element_mapping action="DELETE">
+        <field>user</field>
+        <id>52da9e8a2f9101105f83e93df699b6a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 15:26:08</sys_created_on>
+        <sys_id>05ea5e8a2f9101105f83e93df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 15:26:08</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['8755b68d1b5101106c166464604bcb91'].user}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>e0202210dbbe049442b321c405961990</instance_id>
+        <instance_name>dev98963</instance_name>
+        <name>sys_atf_step_52da9e8a2f9101105f83e93df699b6a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Impersonate the user: {{Step 2: Create a User.User}}</description><display_name>Impersonate</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>31</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 15:26:08</sys_created_on><sys_id>52da9e8a2f9101105f83e93df699b6a7</sys_id><sys_mod_count>13</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_step_52da9e8a2f9101105f83e93df699b6a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 15:34:44</sys_updated_on><table/><test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=52da9e8a2f9101105f83e93df699b6a7"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>52da9e8a2f9101105f83e93df699b6a7</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 15:26:08</sys_created_on><sys_id>85ea5e8a2f9101105f83e93df699b608</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 15:26:08</sys_updated_on><value/><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=52da9e8a2f9101105f83e93df699b6a7"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>user</field><id>52da9e8a2f9101105f83e93df699b6a7</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 15:26:08</sys_created_on><sys_id>05ea5e8a2f9101105f83e93df699b608</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 15:26:08</sys_updated_on><table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table><value>{{step['8755b68d1b5101106c166464604bcb91'].user}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-392107326</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>eef279462f1101105f83e93df699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 15:34:44</sys_created_on>
+        <sys_id>43dc924e2f9101105f83e93df699b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ea15318940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 15:34:44</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>4bdc924e46910110727432895c84e78d</update_guid>
+        <update_guid_history>4bdc924e46910110727432895c84e78d:-392107326,09bcde0e0c9101105067294900b8ae2e:-915580829,e08cda0e469101109f481bc7e6bc8829:452903993,892b96cac89101100361902aa4fb930c:-70569510,120b16ca909101109ca48257f0e3c70e:452903993,4dea92ca7791011066779a4b79636930:-70569510</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 15:45:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>165e7508add447bca81df2dea3fc8c39</sys_id>
+        <sys_metadata>52da9e8a2f9101105f83e93df699b6a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_step_52da9e8a2f9101105f83e93df699b6a7</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_52da9e8a2f9101105f83e93df699b6a7">43dc924e2f9101105f83e93df699b68e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 15:45:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

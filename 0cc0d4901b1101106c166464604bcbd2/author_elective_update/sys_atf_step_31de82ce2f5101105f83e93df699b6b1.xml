@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from/>
+        <description>Insert a record into 'x_402400_drink_orders' with the following values:
+Order for = System Administrator
+and Assignment group = {{Step 1: Record Insert.Record}}
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:34:31</sys_created_on>
+        <sys_id>31de82ce2f5101105f83e93df699b6b1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_31de82ce2f5101105f83e93df699b6b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:44:49</sys_updated_on>
+        <table>x_402400_drink_orders</table>
+        <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=31de82ce2f5101105f83e93df699b6b1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>31de82ce2f5101105f83e93df699b6b1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:34:35</sys_created_on>
+        <sys_id>021f0ece2f5101105f83e93df699b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:34:35</sys_updated_on>
+        <value>x_402400_drink_orders</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>31de82ce2f5101105f83e93df699b6b1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:34:35</sys_created_on>
+        <sys_id>4e1f0ece2f5101105f83e93df699b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:34:35</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>31de82ce2f5101105f83e93df699b6b1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:34:35</sys_created_on>
+        <sys_id>8a1f0ece2f5101105f83e93df699b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:34:35</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>31de82ce2f5101105f83e93df699b6b1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:34:35</sys_created_on>
+        <sys_id>c21f0ece2f5101105f83e93df699b61d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:35:19</sys_updated_on>
+        <value>order_for=6816f79cc0a8016401c5a33be04be441^assignment_group={{step['6bed36451b9101106c166464604bcb53'].record_id}}^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=31de82ce2f5101105f83e93df699b6b1"/>
+    <sys_element_mapping action="DELETE">
+        <field>enforce_security</field>
+        <id>31de82ce2f5101105f83e93df699b6b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:34:35</sys_created_on>
+        <sys_id>461f0ece2f5101105f83e93df699b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:34:35</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>31de82ce2f5101105f83e93df699b6b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:34:35</sys_created_on>
+        <sys_id>0a1f0ece2f5101105f83e93df699b61c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:35:19</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>order_for=6816f79cc0a8016401c5a33be04be441^assignment_group={{step['6bed36451b9101106c166464604bcb53'].record_id}}^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>e0202210dbbe049442b321c405961990</instance_id>
+        <instance_name>dev98963</instance_name>
+        <name>sys_atf_step_31de82ce2f5101105f83e93df699b6b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from/><description>Insert a record into 'x_402400_drink_orders' with the following values:
+Order for = System Administrator
+and Assignment group = {{Step 1: Record Insert.Record}}
+Confirm the record was successfully inserted</description><display_name>Record Insert</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>2</order><snapshot/><step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 14:34:31</sys_created_on><sys_id>31de82ce2f5101105f83e93df699b6b1</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Record Insert</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_step_31de82ce2f5101105f83e93df699b6b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 14:44:49</sys_updated_on><table>x_402400_drink_orders</table><test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=31de82ce2f5101105f83e93df699b6b1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>31de82ce2f5101105f83e93df699b6b1</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 14:34:35</sys_created_on><sys_id>021f0ece2f5101105f83e93df699b61d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 14:34:35</sys_updated_on><value>x_402400_drink_orders</value><variable display_value="Table">90144b535320220002c6435723dc3488</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>31de82ce2f5101105f83e93df699b6b1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 14:34:35</sys_created_on><sys_id>4e1f0ece2f5101105f83e93df699b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 14:34:35</sys_updated_on><value>1</value><variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>31de82ce2f5101105f83e93df699b6b1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 14:34:35</sys_created_on><sys_id>8a1f0ece2f5101105f83e93df699b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 14:34:35</sys_updated_on><value>record_successfully_inserted</value><variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>31de82ce2f5101105f83e93df699b6b1</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 14:34:35</sys_created_on><sys_id>c21f0ece2f5101105f83e93df699b61d</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 14:35:19</sys_updated_on><value>order_for=6816f79cc0a8016401c5a33be04be441^assignment_group={{step['6bed36451b9101106c166464604bcb53'].record_id}}^EQ</value><variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=31de82ce2f5101105f83e93df699b6b1"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>enforce_security</field><id>31de82ce2f5101105f83e93df699b6b1</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 14:34:35</sys_created_on><sys_id>461f0ece2f5101105f83e93df699b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 14:34:35</sys_updated_on><table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>31de82ce2f5101105f83e93df699b6b1</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-28 14:34:35</sys_created_on><sys_id>0a1f0ece2f5101105f83e93df699b61c</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 14:35:19</sys_updated_on><table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table><value>order_for=6816f79cc0a8016401c5a33be04be441^assignment_group={{step['6bed36451b9101106c166464604bcb53'].record_id}}^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1229979353</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>eef279462f1101105f83e93df699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:44:49</sys_created_on>
+        <sys_id>c8719a422f9101105f83e93df699b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ea12565d00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:44:49</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>c0719a42e3910110b1a483a487272bdc</update_guid>
+        <update_guid_history>c0719a42e3910110b1a483a487272bdc:-1229979353,784fceceee51011075348c2319fc4d6a:1592924654,2c2f4eceb5510110c46bdea170887052:-1325955290,8e1f0ece8251011027635ee8a0bf6d1e:1184530469</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 14:46:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0858af1fabb24aa0ab512694dfef1641</sys_id>
+        <sys_metadata>31de82ce2f5101105f83e93df699b6b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_step_31de82ce2f5101105f83e93df699b6b1</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_31de82ce2f5101105f83e93df699b6b1">c8719a422f9101105f83e93df699b6dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 14:46:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

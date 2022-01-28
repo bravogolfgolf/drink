@@ -8,21 +8,21 @@ Confirm that the following UI actions on the 'Orders' list are not visible: Crea
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>21</order>
+        <order>26</order>
         <snapshot/>
         <step_config display_value="Validate List UI Action Visibility">012105620fe2330091d0f00c97767ec4</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-27 15:24:07</sys_created_on>
         <sys_id>8c90d93d1b1101106c166464604bcb1c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Validate List UI Action Visibility</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_8c90d93d1b1101106c166464604bcb1c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-28 03:45:48</sys_updated_on>
+        <sys_updated_on>2022-01-28 15:54:13</sys_updated_on>
         <table>x_402400_drink_orders</table>
         <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
         <timeout/>
