@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-27 20:29:09</sys_created_on>
         <sys_id>fb96deb51b1501106c166464604bcbfa</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_fb96deb51b1501106c166464604bcbfa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-27 23:44:15</sys_updated_on>
+        <sys_updated_on>2022-01-28 00:41:15</sys_updated_on>
         <table/>
         <test display_value="Environment">8d6298141b1101106c166464604bcbba</test>
         <timeout/>
@@ -50,11 +50,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-27 20:29:09</sys_created_on>
         <sys_id>c6a696f51b1501106c166464604bcbd8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-27 23:44:15</sys_updated_on>
+        <sys_updated_on>2022-01-28 00:41:15</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
-&#13;
     describe('Count of sys_app_application records', function() {&#13;
         it('has not change since tests were created', function() {&#13;
             var gaSysAppApplication = new GlideAggregate('sys_app_application');&#13;
