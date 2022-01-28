@@ -31,7 +31,7 @@ Confirm the record was successfully inserted</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-25 17:47:13</sys_updated_on>
         <table>x_402400_drink_drinks</table>
-        <test display_value="Standard UI - New Order - User">69a4e5b01b5101106c166464604bcb88</test>
+        <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

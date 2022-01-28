@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Drinks" max_length="40" name="x_402400_drink_drinks" type="collection">
+    <element label="Drinks" max_length="40" name="x_402400_drink_drinks" sizeclass="1" type="collection">
         <element label="Calories" max_length="40" name="calories" type="integer"/>
         <element label="Carbohydrates" max_length="40" name="carbohydrates" type="integer"/>
         <element label="Fat" max_length="40" name="fat" type="integer"/>

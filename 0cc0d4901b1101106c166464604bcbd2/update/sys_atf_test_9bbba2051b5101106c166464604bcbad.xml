@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="Standard UI - Drinks Form - User">4423e5701b5101106c166464604bcba3</copied_from>
+        <copied_from display_value="Standard UI - Drinks Form - Barista/User">4423e5701b5101106c166464604bcba3</copied_from>
         <description/>
         <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>Standard UI - Drinks Form - Admin</name>
