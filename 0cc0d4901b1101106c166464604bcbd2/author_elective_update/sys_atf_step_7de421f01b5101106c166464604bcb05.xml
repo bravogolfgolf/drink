@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from/>
+        <description>Open a new 'Orders' form</description>
+        <display_name>Open a New Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <snapshot/>
+        <step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 14:18:34</sys_created_on>
+        <sys_id>7de421f01b5101106c166464604bcb05</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_7de421f01b5101106c166464604bcb05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 03:41:08</sys_updated_on>
+        <table>x_402400_drink_orders</table>
+        <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=7de421f01b5101106c166464604bcb05"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7de421f01b5101106c166464604bcb05</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 14:18:34</sys_created_on>
+        <sys_id>9015a1f01b5101106c166464604bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 14:18:34</sys_updated_on>
+        <value>x_402400_drink_orders</value>
+        <variable display_value="Table">bb84ed825320220002c6435723dc3400</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7de421f01b5101106c166464604bcb05</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 14:18:34</sys_created_on>
+        <sys_id>d815a1f01b5101106c166464604bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 14:18:34</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7de421f01b5101106c166464604bcb05</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 14:18:34</sys_created_on>
+        <sys_id>dc15a1f01b5101106c166464604bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 14:18:34</sys_updated_on>
+        <value/>
+        <variable display_value="View">27d4e1c25320220002c6435723dc3486</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_05317cd10b10220050192f15d6673af8^id=7de421f01b5101106c166464604bcb05"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>037add74db083c50601a11f848961964</instance_id>
+        <instance_name>dev114172</instance_name>
+        <name>sys_atf_step_7de421f01b5101106c166464604bcb05</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from/><description>Open a new 'Orders' form</description><display_name>Open a New Form</display_name><inputs/><mugshots_cache_json/><notes/><order>7</order><snapshot/><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 14:18:34</sys_created_on><sys_id>7de421f01b5101106c166464604bcb05</sys_id><sys_mod_count>19</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_step_7de421f01b5101106c166464604bcb05</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-28 03:41:08</sys_updated_on><table>x_402400_drink_orders</table><test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7de421f01b5101106c166464604bcb05"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7de421f01b5101106c166464604bcb05</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 14:18:34</sys_created_on><sys_id>9015a1f01b5101106c166464604bcbf7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 14:18:34</sys_updated_on><value>x_402400_drink_orders</value><variable display_value="Table">bb84ed825320220002c6435723dc3400</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7de421f01b5101106c166464604bcb05</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 14:18:34</sys_created_on><sys_id>d815a1f01b5101106c166464604bcbf6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 14:18:34</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7de421f01b5101106c166464604bcb05</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 14:18:34</sys_created_on><sys_id>dc15a1f01b5101106c166464604bcbf6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 14:18:34</sys_updated_on><value/><variable display_value="View">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_05317cd10b10220050192f15d6673af8^id=7de421f01b5101106c166464604bcb05"/></record_update>]]></payload>
+        <payload_hash>-1861563061</payload_hash>
+        <record_name>Open a New Form</record_name>
+        <reverted_from/>
+        <source>3f1190d01b1101106c166464604bcb75</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 03:41:09</sys_created_on>
+        <sys_id>06897bf51b5901106c166464604bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e9ec5c8190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 03:41:09</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>0e897bf5855901104a7ad85bbfecc355</update_guid>
+        <update_guid_history>0e897bf5855901104a7ad85bbfecc355:-1861563061,76793ff5a35901103df5b83a8db9e6a3:-1477377582,625c09795f11011083d950d5913d67c1:1632537489,c564c3c92a91011070d1a203bbe96706:-531796518,dc5eba457891011073b3219f3d111243:-431476677,a0073ecd1d51011053562fffefe62755:-331156836,a786b6cde651011066796a6bf0effea0:-230836995,da46b2cd0d5101103b3f309265624d74:-130517154,51d53e8dd45101105776c3139ac16fa5:-230836995,4475f68db3510110700c592b88c640a7:-130517154,1015a1f01651011047a63286a8ff50f9:-1047196572</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 03:45:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>4f7b9daf3cd84584b4b63af36fdad210</sys_id>
+        <sys_metadata>7de421f01b5101106c166464604bcb05</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_step_7de421f01b5101106c166464604bcb05</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_7de421f01b5101106c166464604bcb05">06897bf51b5901106c166464604bcb56</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 03:45:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

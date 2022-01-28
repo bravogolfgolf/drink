@@ -6,7 +6,7 @@
         <display_name>Run Server Side Script</display_name>
         <inputs/>
         <mugshots_cache_json/>
-        <notes>Number of Applications available has not change</notes>
+        <notes>Navigation tests</notes>
         <order>7</order>
         <snapshot/>
         <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-27 20:29:09</sys_created_on>
         <sys_id>fb96deb51b1501106c166464604bcbfa</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_fb96deb51b1501106c166464604bcbfa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-28 00:41:15</sys_updated_on>
+        <sys_updated_on>2022-01-28 03:32:30</sys_updated_on>
         <table/>
         <test display_value="Environment">8d6298141b1101106c166464604bcbba</test>
         <timeout/>
@@ -50,23 +50,39 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-27 20:29:09</sys_created_on>
         <sys_id>c6a696f51b1501106c166464604bcbd8</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-28 00:41:15</sys_updated_on>
+        <sys_updated_on>2022-01-28 03:32:30</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
-    describe('Count of sys_app_application records', function() {&#13;
-        it('has not change since tests were created', function() {&#13;
+&#13;
+    var count = -1;&#13;
+&#13;
+    describe('Count of', function() {&#13;
+		&#13;
+        it('Application Menus has not change', function() {&#13;
             var gaSysAppApplication = new GlideAggregate('sys_app_application');&#13;
             gaSysAppApplication.addAggregate('COUNT');&#13;
             gaSysAppApplication.query();&#13;
             var expected = '144';&#13;
-            var count = 0;&#13;
             if (gaSysAppApplication.next()) {&#13;
                 count = gaSysAppApplication.getAggregate('COUNT');&#13;
             }&#13;
             expect(count).toBe(expected);&#13;
         });&#13;
+&#13;
+        it('Modules has not change', function() {&#13;
+            var gaSysAppModule = new GlideAggregate('sys_app_module');&#13;
+            gaSysAppModule.addQuery('application.title', '=', 'Drink Management');&#13;
+            gaSysAppModule.addAggregate('COUNT');&#13;
+            gaSysAppModule.query();&#13;
+            var expected = '11';&#13;
+            if (gaSysAppModule.next()) {&#13;
+                count = gaSysAppModule.getAggregate('COUNT');&#13;
+            }&#13;
+            expect(count).toBe(expected);&#13;
+        });&#13;
     });&#13;
+	&#13;
 })(outputs, steps, stepResult, assertEqual);&#13;
 jasmine.getEnv().execute();</value>
         <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
