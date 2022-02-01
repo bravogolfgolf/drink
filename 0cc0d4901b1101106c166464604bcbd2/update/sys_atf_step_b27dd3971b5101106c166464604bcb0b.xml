@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-01 17:30:13</sys_created_on>
+        <sys_id>b27dd3971b5101106c166464604bcb0b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_b27dd3971b5101106c166464604bcb0b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-01 17:55:28</sys_updated_on>
+        <table/>
+        <test display_value="ACLs - Admin">750d5f571b5101106c166464604bcba1</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b27dd3971b5101106c166464604bcb0b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b27dd3971b5101106c166464604bcb0b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-01 17:30:13</sys_created_on>
+        <sys_id>65ad97971b5101106c166464604bcb8e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-01 17:55:28</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+&#13;
+    describe('Current user', function() {&#13;
+&#13;
+        describe('on Drink M2m Drinks Orders table', function() {&#13;
+&#13;
+            var glideRecord = new GlideRecord('x_402400_drink_m2m_drinks_orders');&#13;
+&#13;
+            it('can Create record', function() {&#13;
+                canCreate(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Read record', function() {&#13;
+                canRead(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Write record', function() {&#13;
+                canWrite(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Delete record', function() {&#13;
+                canDelete(glideRecord, true);&#13;
+&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('on Drinks table', function() {&#13;
+&#13;
+            var glideRecord = new GlideRecord('x_402400_drink_drink_sizes');&#13;
+&#13;
+            it('can Create record', function() {&#13;
+                canCreate(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Read record', function() {&#13;
+                canRead(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Write record', function() {&#13;
+                canWrite(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Delete record', function() {&#13;
+                canDelete(glideRecord, true);&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('on Orders table', function() {&#13;
+&#13;
+            var glideRecord = new GlideRecord('x_402400_drink_drinks');&#13;
+&#13;
+            it('can Create record', function() {&#13;
+                canCreate(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Read record', function() {&#13;
+                canRead(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Write record', function() {&#13;
+                canWrite(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Delete record', function() {&#13;
+                canDelete(glideRecord, true);&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('on Orders table', function() {&#13;
+&#13;
+            var glideRecord = new GlideRecord('x_402400_drink_orders');&#13;
+&#13;
+            it('can Create record', function() {&#13;
+                canCreate(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Read record', function() {&#13;
+                canRead(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            it('can Write record', function() {&#13;
+                canWrite(glideRecord, true);&#13;
+            });&#13;
+            &#13;
+			it('can Delete record', function() {&#13;
+                canDelete(glideRecord, true);&#13;
+            });&#13;
+        });&#13;
+    });&#13;
+&#13;
+    function canCreate(glideRecord, expected) {&#13;
+        var result = glideRecord.canCreate();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function canDelete(glideRecord, expected) {&#13;
+        var result = glideRecord.canDelete();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function canRead(glideRecord, expected) {&#13;
+        var result = glideRecord.canRead();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function canWrite(glideRecord, expected) {&#13;
+        var result = glideRecord.canWrite();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+jasmine.getEnv().execute();</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b27dd3971b5101106c166464604bcb0b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-01 17:30:13</sys_created_on>
+        <sys_id>a1ad97971b5101106c166464604bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-01 17:30:13</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>
