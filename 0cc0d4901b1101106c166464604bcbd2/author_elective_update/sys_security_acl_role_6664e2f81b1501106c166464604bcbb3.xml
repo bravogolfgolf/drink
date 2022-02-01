@@ -42,7 +42,7 @@
         <update_guid_history>ee64e2f88e150110d0d123b6df8d12b5:-1296517360</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_402400_drink_drink_sizes.x_402400_drink.user">db2922811b5101106c166464604bcb7c</sys_audit_delete>
+        <sys_audit_delete display_value="">db2922811b5101106c166464604bcb7c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-25 13:54:36</sys_created_on>

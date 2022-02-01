@@ -24,13 +24,13 @@
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-24 13:28:42</sys_created_on>
-        <sys_id>8d499d381b1101106c166464604bcb5e</sys_id>
+        <sys_id>c85448921b1101106c166464604bcbbb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Orders</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
-        <sys_update_name>sys_db_object_8d499d381b1101106c166464604bcb5e</sys_update_name>
+        <sys_update_name>sys_db_object_c85448921b1101106c166464604bcbbb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-24 13:28:42</sys_updated_on>
         <update_access>false</update_access>

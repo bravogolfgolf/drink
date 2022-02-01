@@ -42,7 +42,7 @@
         <update_guid_history>f3be54dc4411011048362a38f3461ffd:885795311</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_402400_drink_drink.x_402400_drink.user">3c1719b41b1101106c166464604bcbcf</sys_audit_delete>
+        <sys_audit_delete display_value="">3c1719b41b1101106c166464604bcbcf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-24 13:17:26</sys_created_on>
