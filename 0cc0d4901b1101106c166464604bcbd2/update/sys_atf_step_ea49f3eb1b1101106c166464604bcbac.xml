@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-02 14:09:51</sys_created_on>
         <sys_id>ea49f3eb1b1101106c166464604bcbac</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_ea49f3eb1b1101106c166464604bcbac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-02 14:29:00</sys_updated_on>
+        <sys_updated_on>2022-02-03 17:32:38</sys_updated_on>
         <table/>
         <test display_value="ACLs - Admin">750d5f571b5101106c166464604bcba1</test>
         <timeout/>
@@ -36,14 +36,45 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-02 14:09:51</sys_created_on>
         <sys_id>5c69bb6b1b1101106c166464604bcb7b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-02 14:15:03</sys_updated_on>
+        <sys_updated_on>2022-02-03 17:32:38</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
 &#13;
-    describe('Current user on Drinks Sizes table', function() {&#13;
+    var glideRecord = new GlideRecord('x_402400_drink_drink_sizes');&#13;
 &#13;
-        var glideRecord = new GlideRecord('x_402400_drink_drink_sizes');&#13;
+    describe('Current user on ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
+&#13;
+        var defaultValue = false;&#13;
+&#13;
+        var specificGlideElements = [{&#13;
+            name: 'name',&#13;
+            create: true,&#13;
+            read: true,&#13;
+            write: true&#13;
+        }];&#13;
+&#13;
+        var systemGlideElements = [{&#13;
+            name: 'sys_id',&#13;
+            read: true,&#13;
+        }, {&#13;
+            name: 'sys_created_on',&#13;
+            read: true,&#13;
+        }, {&#13;
+            name: 'sys_created_by',&#13;
+            read: true,&#13;
+        }, {&#13;
+            name: 'sys_updated_on',&#13;
+            read: true,&#13;
+        }, {&#13;
+            name: 'sys_updated_by',&#13;
+            read: true,&#13;
+        }, {&#13;
+            name: 'sys_mod_count',&#13;
+            read: true,&#13;
+        }];&#13;
+&#13;
+        var glideElements = [].concat(specificGlideElements, systemGlideElements);&#13;
 &#13;
         describe('can Create', function() {&#13;
 &#13;
@@ -52,34 +83,11 @@
             });&#13;
 &#13;
             describe('field', function() {&#13;
-&#13;
-                it('name', function() {&#13;
-                    checkCreate(glideRecord.getElement('name'), true);&#13;
-                });&#13;
-&#13;
-                it('sys_id', function() {&#13;
-                    checkCreate(glideRecord.getElement('sys_id'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_created_on', function() {&#13;
-                    checkCreate(glideRecord.getElement('sys_created_on'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_created_by', function() {&#13;
-                    checkCreate(glideRecord.getElement('sys_created_by'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_updated_on', function() {&#13;
-                    checkCreate(glideRecord.getElement('sys_updated_on'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_updated_by', function() {&#13;
-                    checkCreate(glideRecord.getElement('sys_updated_by'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_mod_count', function() {&#13;
-                    checkCreate(glideRecord.getElement('sys_mod_count'), false);&#13;
-                });&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkCreate(glideRecord.getElement(glideElement.name), glideElement.create || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
             });&#13;
         });&#13;
 &#13;
@@ -90,34 +98,11 @@
             });&#13;
 &#13;
             describe('field', function() {&#13;
-&#13;
-                it('name', function() {&#13;
-                    checkRead(glideRecord.getElement('name'), true);&#13;
-                });&#13;
-&#13;
-                it('sys_id', function() {&#13;
-                    checkRead(glideRecord.getElement('sys_id'), true);&#13;
-                });&#13;
-&#13;
-                it('sys_created_on', function() {&#13;
-                    checkRead(glideRecord.getElement('sys_created_on'), true);&#13;
-                });&#13;
-&#13;
-                it('sys_created_by', function() {&#13;
-                    checkRead(glideRecord.getElement('sys_created_by'), true);&#13;
-                });&#13;
-&#13;
-                it('sys_updated_on', function() {&#13;
-                    checkRead(glideRecord.getElement('sys_updated_on'), true);&#13;
-                });&#13;
-&#13;
-                it('sys_updated_by', function() {&#13;
-                    checkRead(glideRecord.getElement('sys_updated_by'), true);&#13;
-                });&#13;
-&#13;
-                it('sys_mod_count', function() {&#13;
-                    checkRead(glideRecord.getElement('sys_mod_count'), true);&#13;
-                });&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkRead(glideRecord.getElement(glideElement.name), glideElement.read || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
             });&#13;
         });&#13;
 &#13;
@@ -128,34 +113,11 @@
             });&#13;
 &#13;
             describe('field', function() {&#13;
-&#13;
-                it('name', function() {&#13;
-                    checkWrite(glideRecord.getElement('name'), true);&#13;
-                });&#13;
-&#13;
-                it('sys_id', function() {&#13;
-                    checkWrite(glideRecord.getElement('sys_id'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_created_on', function() {&#13;
-                    checkWrite(glideRecord.getElement('sys_created_on'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_created_by', function() {&#13;
-                    checkWrite(glideRecord.getElement('sys_created_by'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_updated_on', function() {&#13;
-                    checkWrite(glideRecord.getElement('sys_updated_on'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_updated_by', function() {&#13;
-                    checkWrite(glideRecord.getElement('sys_updated_by'), false);&#13;
-                });&#13;
-&#13;
-                it('sys_mod_count', function() {&#13;
-                    checkWrite(glideRecord.getElement('sys_mod_count'), false);&#13;
-                });&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkWrite(glideRecord.getElement(glideElement.name), glideElement.write || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
             });&#13;
         });&#13;
 &#13;
@@ -188,6 +150,7 @@
     }&#13;
 &#13;
 })(outputs, steps, stepResult, assertEqual);&#13;
+jasmine.getEnv().randomizeTests(false);&#13;
 jasmine.getEnv().execute();</value>
         <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
     </sys_variable_value>
