@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-01 17:30:13</sys_created_on>
         <sys_id>b27dd3971b5101106c166464604bcb0b</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_b27dd3971b5101106c166464604bcb0b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-03 21:34:00</sys_updated_on>
+        <sys_updated_on>2022-02-04 19:33:09</sys_updated_on>
         <table/>
         <test display_value="ACLs - Admin">750d5f571b5101106c166464604bcba1</test>
         <timeout/>
@@ -36,9 +36,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-01 17:30:13</sys_created_on>
         <sys_id>65ad97971b5101106c166464604bcb8e</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-03 21:34:00</sys_updated_on>
+        <sys_updated_on>2022-02-04 19:33:09</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
 &#13;
     var glideRecord = new GlideRecord('x_402400_drink_orders');&#13;
@@ -180,7 +180,7 @@
         write: true&#13;
     }, {&#13;
         name: 'impact',&#13;
-		read: true&#13;
+        read: true&#13;
     }, {&#13;
         name: 'knowledge',&#13;
         create: true,&#13;
@@ -257,6 +257,11 @@
         write: true&#13;
     }, {&#13;
         name: 'sys_domain_path',&#13;
+        create: true,&#13;
+        read: true,&#13;
+        write: true&#13;
+    }, {&#13;
+        name: 'sys_tags',&#13;
         create: true,&#13;
         read: true,&#13;
         write: true&#13;
@@ -344,7 +349,8 @@
 &#13;
     describe('Number of elements in glideElements array', function() {&#13;
         it('should equal number of GlideElements in table', function() {&#13;
-            expect(glideElements.length).toBe(72);&#13;
+            var EXTRA_variables_GLIDE_ELEMENTS = 2;&#13;
+            expect(glideElements.length).toBe(glideRecord.getElements().length - EXTRA_variables_GLIDE_ELEMENTS);&#13;
         });&#13;
     });&#13;
 &#13;
