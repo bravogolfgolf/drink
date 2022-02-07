@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="ACLs - Barista">ba4835991b2101106c166464604bcb95</copied_from>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>ACLs - User</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 16:16:52</sys_created_on>
+        <sys_id>6d6642151b6101106c166464604bcb71</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ACLs - User</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_test_6d6642151b6101106c166464604bcb71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:17:03</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=6d6642151b6101106c166464604bcb71"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>037add74db083c50601a11f848961964</instance_id>
+        <instance_name>dev114172</instance_name>
+        <name>sys_atf_test_6d6642151b6101106c166464604bcb71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="ACLs - Barista">ba4835991b2101106c166464604bcb95</copied_from><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>ACLs - User</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 16:16:52</sys_created_on><sys_id>6d6642151b6101106c166464604bcb71</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ACLs - User</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_test_6d6642151b6101106c166464604bcb71</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 16:17:03</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=6d6642151b6101106c166464604bcb71"/></record_update>]]></payload>
+        <payload_hash>1596969296</payload_hash>
+        <record_name>ACLs - User</record_name>
+        <reverted_from/>
+        <source>df64cc121b1101106c166464604bcb71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 16:17:03</sys_created_on>
+        <sys_id>d87682951b6101106c166464604bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ed4f96cec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:17:03</sys_updated_on>
+        <type>Test</type>
+        <update_guid>d07682956e610110bde53765a5a5088d</update_guid>
+        <update_guid_history>d07682956e610110bde53765a5a5088d:1596969296,29664215f461011098d73bf5e57e0174:86263120</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 18:06:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>3430163230a14bff9cdb1edb0833c729</sys_id>
+        <sys_metadata>6d6642151b6101106c166464604bcb71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ACLs - User</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_test_6d6642151b6101106c166464604bcb71</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_6d6642151b6101106c166464604bcb71">d87682951b6101106c166464604bcb8d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 18:06:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

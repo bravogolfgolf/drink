@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Run Server Side Script">3248b5991b2101106c166464604bcb8b</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>x_402400_drink_drink_sizes ACLs</notes>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 16:16:52</sys_created_on>
+        <sys_id>f16682951b6101106c166464604bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_f16682951b6101106c166464604bcb72</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:16:52</sys_updated_on>
+        <table/>
+        <test display_value="ACLs - Barista copy">6d6642151b6101106c166464604bcb71</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=f16682951b6101106c166464604bcb72"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f16682951b6101106c166464604bcb72</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 16:16:52</sys_created_on>
+        <sys_id>bd6682951b6101106c166464604bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:16:52</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+&#13;
+    var glideRecord = new GlideRecord('x_402400_drink_drink_sizes');&#13;
+&#13;
+    var defaultValue = false;&#13;
+	&#13;
+		var tablePermissions = {&#13;
+        read: true,&#13;
+    };&#13;
+&#13;
+    var specificGlideElements = [{&#13;
+        name: 'name',&#13;
+        read: true,&#13;
+    }];&#13;
+&#13;
+    var systemGlideElements = [{&#13;
+        name: 'sys_id',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_created_on',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_created_by',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_updated_on',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_updated_by',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_mod_count',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_tags',&#13;
+        read: true,&#13;
+        write: true&#13;
+    }];&#13;
+&#13;
+    var glideElements = [].concat(specificGlideElements, systemGlideElements);&#13;
+&#13;
+    describe('Number of elements in glideElements array', function() {&#13;
+        it('should equal number of GlideElements in ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
+            expect(glideElements.length).toBe(glideRecord.getElements().length);&#13;
+        });&#13;
+    });&#13;
+&#13;
+    describe('Role on ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
+&#13;
+        describe('can Create', function() {&#13;
+&#13;
+            it('record', function() {&#13;
+                checkCreate(glideRecord, tablePermissions.create || defaultValue);&#13;
+            });&#13;
+&#13;
+            describe('field', function() {&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkCreate(glideRecord.getElement(glideElement.name), glideElement.create || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('can Read', function() {&#13;
+&#13;
+            it('record', function() {&#13;
+                checkRead(glideRecord, tablePermissions.read || defaultValue);&#13;
+            });&#13;
+&#13;
+            describe('field', function() {&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkRead(glideRecord.getElement(glideElement.name), glideElement.read || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('can Write', function() {&#13;
+&#13;
+            it('record', function() {&#13;
+                checkWrite(glideRecord, tablePermissions.write || defaultValue);&#13;
+            });&#13;
+&#13;
+            describe('field', function() {&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkWrite(glideRecord.getElement(glideElement.name), glideElement.write || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('can Delete', function() {&#13;
+&#13;
+            it('record', function() {&#13;
+                checkDelete(glideRecord, tablePermissions.delete || defaultValue);&#13;
+            });&#13;
+        });&#13;
+    });&#13;
+&#13;
+    function checkCreate(object, expected) {&#13;
+        var result = object.canCreate();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function checkDelete(object, expected) {&#13;
+        var result = object.canDelete();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function checkRead(object, expected) {&#13;
+        var result = object.canRead();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function checkWrite(object, expected) {&#13;
+        var result = object.canWrite();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+jasmine.getEnv().randomizeTests(false);&#13;
+jasmine.getEnv().execute();</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>f16682951b6101106c166464604bcb72</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 16:16:52</sys_created_on>
+        <sys_id>f96682951b6101106c166464604bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:16:52</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>037add74db083c50601a11f848961964</instance_id>
+        <instance_name>dev114172</instance_name>
+        <name>sys_atf_step_f16682951b6101106c166464604bcb72</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Run Server Side Script">3248b5991b2101106c166464604bcb8b</copied_from><description>Run Server Side Validation Script</description><display_name>Run Server Side Script</display_name><inputs/><mugshots_cache_json/><notes>x_402400_drink_drink_sizes ACLs</notes><order>3</order><snapshot/><step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 16:16:52</sys_created_on><sys_id>f16682951b6101106c166464604bcb72</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Run Server Side Script</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_step_f16682951b6101106c166464604bcb72</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 16:16:52</sys_updated_on><table/><test display_value="ACLs - Barista copy">6d6642151b6101106c166464604bcb71</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=f16682951b6101106c166464604bcb72"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f16682951b6101106c166464604bcb72</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 16:16:52</sys_created_on><sys_id>bd6682951b6101106c166464604bcb72</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 16:16:52</sys_updated_on><value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+&#13;
+    var glideRecord = new GlideRecord('x_402400_drink_drink_sizes');&#13;
+&#13;
+    var defaultValue = false;&#13;
+	&#13;
+		var tablePermissions = {&#13;
+        read: true,&#13;
+    };&#13;
+&#13;
+    var specificGlideElements = [{&#13;
+        name: 'name',&#13;
+        read: true,&#13;
+    }];&#13;
+&#13;
+    var systemGlideElements = [{&#13;
+        name: 'sys_id',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_created_on',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_created_by',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_updated_on',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_updated_by',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_mod_count',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_tags',&#13;
+        read: true,&#13;
+        write: true&#13;
+    }];&#13;
+&#13;
+    var glideElements = [].concat(specificGlideElements, systemGlideElements);&#13;
+&#13;
+    describe('Number of elements in glideElements array', function() {&#13;
+        it('should equal number of GlideElements in ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
+            expect(glideElements.length).toBe(glideRecord.getElements().length);&#13;
+        });&#13;
+    });&#13;
+&#13;
+    describe('Role on ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
+&#13;
+        describe('can Create', function() {&#13;
+&#13;
+            it('record', function() {&#13;
+                checkCreate(glideRecord, tablePermissions.create || defaultValue);&#13;
+            });&#13;
+&#13;
+            describe('field', function() {&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkCreate(glideRecord.getElement(glideElement.name), glideElement.create || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('can Read', function() {&#13;
+&#13;
+            it('record', function() {&#13;
+                checkRead(glideRecord, tablePermissions.read || defaultValue);&#13;
+            });&#13;
+&#13;
+            describe('field', function() {&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkRead(glideRecord.getElement(glideElement.name), glideElement.read || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('can Write', function() {&#13;
+&#13;
+            it('record', function() {&#13;
+                checkWrite(glideRecord, tablePermissions.write || defaultValue);&#13;
+            });&#13;
+&#13;
+            describe('field', function() {&#13;
+                glideElements.forEach(function(glideElement) {&#13;
+                    it(glideElement.name, function() {&#13;
+                        checkWrite(glideRecord.getElement(glideElement.name), glideElement.write || defaultValue);&#13;
+                    });&#13;
+                }, this);&#13;
+            });&#13;
+        });&#13;
+&#13;
+        describe('can Delete', function() {&#13;
+&#13;
+            it('record', function() {&#13;
+                checkDelete(glideRecord, tablePermissions.delete || defaultValue);&#13;
+            });&#13;
+        });&#13;
+    });&#13;
+&#13;
+    function checkCreate(object, expected) {&#13;
+        var result = object.canCreate();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function checkDelete(object, expected) {&#13;
+        var result = object.canDelete();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function checkRead(object, expected) {&#13;
+        var result = object.canRead();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+    function checkWrite(object, expected) {&#13;
+        var result = object.canWrite();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+jasmine.getEnv().randomizeTests(false);&#13;
+jasmine.getEnv().execute();</value><variable display_value="Test script">989d9e235324220002c6435723dc3484</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f16682951b6101106c166464604bcb72</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 16:16:52</sys_created_on><sys_id>f96682951b6101106c166464604bcb72</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 16:16:52</sys_updated_on><value>3.1</value><variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1615227189</payload_hash>
+        <record_name>Run Server Side Script</record_name>
+        <reverted_from/>
+        <source>df64cc121b1101106c166464604bcb71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 16:16:52</sys_created_on>
+        <sys_id>f96682951b6101106c166464604bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ed4f943ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:16:52</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>35668295af61011027e611e7c2150d74</update_guid>
+        <update_guid_history>35668295af61011027e611e7c2150d74:1615227189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 18:06:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>27b6d236bc004aca880b39d672844c84</sys_id>
+        <sys_metadata>f16682951b6101106c166464604bcb72</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_step_f16682951b6101106c166464604bcb72</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_f16682951b6101106c166464604bcb72">f96682951b6101106c166464604bcb74</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 18:06:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

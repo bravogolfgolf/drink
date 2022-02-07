@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-02 14:16:07</sys_created_on>
         <sys_id>e4ca3b2f1b1101106c166464604bcb23</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_e4ca3b2f1b1101106c166464604bcb23</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-03 17:35:17</sys_updated_on>
+        <sys_updated_on>2022-02-07 15:30:19</sys_updated_on>
         <table/>
         <test display_value="ACLs - Admin">750d5f571b5101106c166464604bcba1</test>
         <timeout/>
@@ -36,60 +36,78 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-02 14:16:07</sys_created_on>
         <sys_id>80da372f1b1101106c166464604bcb08</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-03 17:35:17</sys_updated_on>
+        <sys_updated_on>2022-02-07 15:30:19</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
 &#13;
     var glideRecord = new GlideRecord('x_402400_drink_m2m_drinks_orders');&#13;
 &#13;
-    describe('Current user on ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
+    var defaultValue = false;&#13;
+	&#13;
+	var tablePermissions = {&#13;
+        create: true,&#13;
+        read: true,&#13;
+        write: true,&#13;
+        delete: true&#13;
+    };&#13;
 &#13;
-        var defaultValue = false;&#13;
+    var specificGlideElements = [{&#13;
+        name: 'drinks',&#13;
+        create: true,&#13;
+        read: true,&#13;
+        write: true&#13;
+    },{&#13;
+        name: 'orders',&#13;
+        create: true,&#13;
+        read: true,&#13;
+        write: true&#13;
+    },{&#13;
+        name: 'size',&#13;
+        create: true,&#13;
+        read: true,&#13;
+        write: true&#13;
+    }];&#13;
 &#13;
-        var specificGlideElements = [{&#13;
-            name: 'drinks',&#13;
-            create: true,&#13;
-            read: true,&#13;
-            write: true&#13;
-        },{&#13;
-            name: 'orders',&#13;
-            create: true,&#13;
-            read: true,&#13;
-            write: true&#13;
-        },{&#13;
-            name: 'size',&#13;
-            create: true,&#13;
-            read: true,&#13;
-            write: true&#13;
-        }];&#13;
+    var systemGlideElements = [{&#13;
+        name: 'sys_id',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_created_on',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_created_by',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_updated_on',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_updated_by',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_mod_count',&#13;
+        read: true,&#13;
+    }, {&#13;
+        name: 'sys_tags',&#13;
+        create: true,&#13;
+        read: true,&#13;
+        write: true&#13;
+    }];&#13;
 &#13;
-        var systemGlideElements = [{&#13;
-            name: 'sys_id',&#13;
-            read: true,&#13;
-        }, {&#13;
-            name: 'sys_created_on',&#13;
-            read: true,&#13;
-        }, {&#13;
-            name: 'sys_created_by',&#13;
-            read: true,&#13;
-        }, {&#13;
-            name: 'sys_updated_on',&#13;
-            read: true,&#13;
-        }, {&#13;
-            name: 'sys_updated_by',&#13;
-            read: true,&#13;
-        }, {&#13;
-            name: 'sys_mod_count',&#13;
-            read: true,&#13;
-        }];&#13;
+    var glideElements = [].concat(specificGlideElements, systemGlideElements);&#13;
 &#13;
-        var glideElements = [].concat(specificGlideElements, systemGlideElements);&#13;
+    describe('Number of elements in glideElements array', function() {&#13;
+        it('should equal number of GlideElements in ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
+            expect(glideElements.length).toBe(glideRecord.getElements().length);&#13;
+        });&#13;
+    });&#13;
+&#13;
+    describe('Role on ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
 &#13;
         describe('can Create', function() {&#13;
 &#13;
             it('record', function() {&#13;
-                checkCreate(glideRecord, true);&#13;
+                checkCreate(glideRecord, tablePermissions.create || defaultValue);&#13;
             });&#13;
 &#13;
             describe('field', function() {&#13;
@@ -104,7 +122,7 @@
         describe('can Read', function() {&#13;
 &#13;
             it('record', function() {&#13;
-                checkRead(glideRecord, true);&#13;
+                checkRead(glideRecord, tablePermissions.read || defaultValue);&#13;
             });&#13;
 &#13;
             describe('field', function() {&#13;
@@ -119,7 +137,7 @@
         describe('can Write', function() {&#13;
 &#13;
             it('record', function() {&#13;
-                checkWrite(glideRecord, true);&#13;
+                checkWrite(glideRecord, tablePermissions.write || defaultValue);&#13;
             });&#13;
 &#13;
             describe('field', function() {&#13;
@@ -134,7 +152,7 @@
         describe('can Delete', function() {&#13;
 &#13;
             it('record', function() {&#13;
-                checkDelete(glideRecord, true);&#13;
+                checkDelete(glideRecord, tablePermissions.delete || defaultValue);&#13;
             });&#13;
         });&#13;
     });&#13;
