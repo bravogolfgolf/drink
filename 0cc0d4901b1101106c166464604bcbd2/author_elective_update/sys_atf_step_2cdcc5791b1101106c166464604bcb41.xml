@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following UI actions are visible: Show Live Feed, Follow on Live Feed, Metrics Timeline, Add to Visual Task Board, Save, Update
+With a failure timeout of 5 Seconds</description>
+        <display_name>UI Action Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>21</order>
+        <snapshot/>
+        <step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:11:36</sys_created_on>
+        <sys_id>2cdcc5791b1101106c166464604bcb41</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_2cdcc5791b1101106c166464604bcb41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-10 16:09:38</sys_updated_on>
+        <table>x_402400_drink_orders</table>
+        <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=2cdcc5791b1101106c166464604bcb41"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2cdcc5791b1101106c166464604bcb41</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:11:37</sys_created_on>
+        <sys_id>32fdcdb91b1101106c166464604bcb3b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-10 14:10:15</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2cdcc5791b1101106c166464604bcb41</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:11:37</sys_created_on>
+        <sys_id>7efdcdb91b1101106c166464604bcb3a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:43:07</sys_updated_on>
+        <value>ee2aca7337702000dada8cdabebe5d04,ddbf640437412000dada8cdabebe5d21,b2bfa9a2ff111000dadaebcfebffadf8,b5a56f321b031100e90d928f3d071392,47fd7f4dc0a8000600a552278b5232ab,42df02e20a0a0b340080e61b551f2909</value>
+        <variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2cdcc5791b1101106c166464604bcb41</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:11:37</sys_created_on>
+        <sys_id>bafdcdb91b1101106c166464604bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:11:37</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2cdcc5791b1101106c166464604bcb41</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 15:11:37</sys_created_on>
+        <sys_id>f2fdcdb91b1101106c166464604bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 15:11:37</sys_updated_on>
+        <value>x_402400_drink_orders</value>
+        <variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_step_2cdcc5791b1101106c166464604bcb41</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Confirm that the following UI actions are visible: Show Live Feed, Follow on Live Feed, Metrics Timeline, Add to Visual Task Board, Save, Update
+With a failure timeout of 5 Seconds</description><display_name>UI Action Visibility</display_name><inputs/><mugshots_cache_json/><notes/><order>21</order><snapshot/><step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-27 15:11:36</sys_created_on><sys_id>2cdcc5791b1101106c166464604bcb41</sys_id><sys_mod_count>51</sys_mod_count><sys_name>UI Action Visibility</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_step_2cdcc5791b1101106c166464604bcb41</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-10 16:09:38</sys_updated_on><table>x_402400_drink_orders</table><test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=2cdcc5791b1101106c166464604bcb41"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2cdcc5791b1101106c166464604bcb41</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-27 15:11:37</sys_created_on><sys_id>32fdcdb91b1101106c166464604bcb3b</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-10 14:10:15</sys_updated_on><value/><variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2cdcc5791b1101106c166464604bcb41</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-27 15:11:37</sys_created_on><sys_id>7efdcdb91b1101106c166464604bcb3a</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-27 15:43:07</sys_updated_on><value>ee2aca7337702000dada8cdabebe5d04,ddbf640437412000dada8cdabebe5d21,b2bfa9a2ff111000dadaebcfebffadf8,b5a56f321b031100e90d928f3d071392,47fd7f4dc0a8000600a552278b5232ab,42df02e20a0a0b340080e61b551f2909</value><variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2cdcc5791b1101106c166464604bcb41</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-27 15:11:37</sys_created_on><sys_id>bafdcdb91b1101106c166464604bcb3a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-27 15:11:37</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2cdcc5791b1101106c166464604bcb41</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-27 15:11:37</sys_created_on><sys_id>f2fdcdb91b1101106c166464604bcb3b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-27 15:11:37</sys_updated_on><value>x_402400_drink_orders</value><variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-133817842</payload_hash>
+        <record_name>UI Action Visibility</record_name>
+        <reverted_from/>
+        <source>ab47a0ca076901102673f4be7c1ed01e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-10 16:09:38</sys_created_on>
+        <sys_id>05812dd607a101102673f4be7c1ed04a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ee465b8c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-10 16:09:38</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>0d812dd62fa1011012ef1c82af24bd49</update_guid>
+        <update_guid_history>0d812dd62fa1011012ef1c82af24bd49:-133817842,1081e9d6cfa10110b1969fc8c721b79e:-814980657,5036859e862101108ce1d032ae49c66c:-1496143472,b027acca84690110d4564cb28bdcc9c5:1042500217</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-10 16:10:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0b5a4b2585ce4377b4b0308a6044af11</sys_id>
+        <sys_metadata>2cdcc5791b1101106c166464604bcb41</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_step_2cdcc5791b1101106c166464604bcb41</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_2cdcc5791b1101106c166464604bcb41">05812dd607a101102673f4be7c1ed04a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-10 16:10:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

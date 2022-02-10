@@ -3,22 +3,22 @@
         <active>true</active>
         <copied_from display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</copied_from>
         <description/>
-        <enable_parameterized_testing>true</enable_parameterized_testing>
-        <name>Standard UI - Orders Form - Admin/Barista</name>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Standard UI - Orders Form - Barista</name>
         <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-25 14:06:32</sys_created_on>
         <sys_id>42eb22451b5101106c166464604bcb39</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Standard UI - Orders Form - Admin/Barista</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Standard UI - Orders Form - Barista</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_test_42eb22451b5101106c166464604bcb39</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-26 22:37:07</sys_updated_on>
+        <sys_updated_on>2022-02-10 14:57:28</sys_updated_on>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=42eb22451b5101106c166464604bcb39"/>
 </record_update>

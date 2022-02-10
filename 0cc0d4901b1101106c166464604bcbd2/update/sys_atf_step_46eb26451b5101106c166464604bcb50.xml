@@ -4,7 +4,6 @@
         <copied_from display_value="Field State Validation">af1525f01b5101106c166464604bcb16</copied_from>
         <description>Assert the following:
 The following fields are visible: Number, Order for, State, Approval, Assigned to, Assignment group, Short description
-The following fields are not visible: Active, Activity due, Actual end, Actual start, Additional assignee list, Additional comments, Approval history, Approval set, Business duration, Close notes, Closed, Closed by, Comments and Work notes, Company, Configuration item, Contact type, Contract, Correlation ID, Correlation display, Created, Created by, Delivery plan, Delivery task, Description, Domain, Domain Path, Due date, Duration, Effective number, Escalation, Expected start, Follow up, Group list, Impact, Knowledge, Location, Made SLA, Opened, Opened by, Order, Parent, Priority, Reassignment count, SLA due, Service, Service offering, Tags, Task type, Time worked, Transfer reason, Universal Request, Updated, Updated by, Updates, Upon approval, Upon reject, Urgency, User input, Watch list, Work notes, Work notes list
 The following fields are read only: Number, State, Assigned to
 The following fields are not read only: Order for, Approval, Assignment group, Short description
 The following fields are not mandatory: Number, Order for, State, Approval, Assignment group, Assigned to, Short description
@@ -20,16 +19,16 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-25 14:06:33</sys_created_on>
         <sys_id>46eb26451b5101106c166464604bcb50</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Field State Validation</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_46eb26451b5101106c166464604bcb50</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-28 04:02:33</sys_updated_on>
+        <sys_updated_on>2022-02-10 14:37:57</sys_updated_on>
         <table>x_402400_drink_orders</table>
-        <test display_value="Standard UI - Orders Form - Admin/Barista">42eb22451b5101106c166464604bcb39</test>
+        <test display_value="Standard UI - Orders Form - Barista">42eb22451b5101106c166464604bcb39</test>
         <timeout>1970-01-01 00:00:05</timeout>
         <warning_message/>
     </sys_atf_step>
@@ -140,10 +139,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-25 14:06:33</sys_created_on>
         <sys_id>c6eb26451b5101106c166464604bcb51</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-25 14:06:33</sys_updated_on>
-        <value>active,activity_due,work_end,work_start,additional_assignee_list,comments,approval_history,approval_set,business_duration,close_notes,closed_at,closed_by,comments_and_work_notes,company,cmdb_ci,contact_type,contract,correlation_id,correlation_display,sys_created_on,sys_created_by,delivery_plan,delivery_task,description,sys_domain,sys_domain_path,due_date,calendar_duration,task_effective_number,escalation,expected_start,follow_up,group_list,impact,knowledge,location,made_sla,opened_at,opened_by,order,parent,priority,reassignment_count,sla_due,business_service,service_offering,sys_tags,sys_class_name,time_worked,route_reason,universal_request,sys_updated_on,sys_updated_by,sys_mod_count,upon_approval,upon_reject,urgency,user_input,watch_list,work_notes,work_notes_list</value>
+        <sys_updated_on>2022-02-10 14:37:57</sys_updated_on>
+        <value/>
         <variable display_value="Not visible">e81ad3535320220002c6435723dc340c</variable>
     </sys_variable_value>
 </record_update>
