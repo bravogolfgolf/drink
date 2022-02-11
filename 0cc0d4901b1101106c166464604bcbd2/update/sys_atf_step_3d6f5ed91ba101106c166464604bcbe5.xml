@@ -2,13 +2,11 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from display_value="Create a User">7a48b5991b2101106c166464604bcb7f</copied_from>
-        <description>Create user with the following values:
+        <description>Create and impersonate user with the following values:
 First name = Drink
 and Last name = User
-With roles: x_402400_drink.user
-With groups: {{Step 1: Record Insert.Record}}</description>
+With roles: x_402400_drink.user</description>
         <display_name>Create a User</display_name>
-        <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
@@ -19,14 +17,14 @@ With groups: {{Step 1: Record Insert.Record}}</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-07 18:06:06</sys_created_on>
         <sys_id>3d6f5ed91ba101106c166464604bcbe5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Create a User</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_3d6f5ed91ba101106c166464604bcbe5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-07 18:08:32</sys_updated_on>
+        <sys_updated_on>2022-02-11 13:25:08</sys_updated_on>
         <table>sys_user</table>
         <test display_value="ACLs - User">716f1ad91ba101106c166464604bcbb5</test>
         <timeout/>
@@ -55,10 +53,10 @@ With groups: {{Step 1: Record Insert.Record}}</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-07 18:06:06</sys_created_on>
         <sys_id>396f5ed91ba101106c166464604bcbe7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-07 18:06:06</sys_updated_on>
-        <value>0</value>
+        <sys_updated_on>2022-02-11 13:22:43</sys_updated_on>
+        <value>1</value>
         <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -97,10 +95,10 @@ With groups: {{Step 1: Record Insert.Record}}</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-07 18:06:06</sys_created_on>
         <sys_id>bd6f5ed91ba101106c166464604bcbe7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-07 18:08:32</sys_updated_on>
-        <value>gem-placeholder</value>
+        <sys_updated_on>2022-02-11 13:20:42</sys_updated_on>
+        <value/>
         <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -131,41 +129,5 @@ With groups: {{Step 1: Record Insert.Record}}</description>
         <value>7ae250541b1101106c166464604bcbb9</value>
         <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=3d6f5ed91ba101106c166464604bcbe5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groups</field>
-        <id>3d6f5ed91ba101106c166464604bcbe5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-07 18:06:06</sys_created_on>
-        <sys_id>316f5ed91ba101106c166464604bcbe9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-07 18:08:32</sys_updated_on>
-        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
-        <value>{{step['756f1ad91ba101106c166464604bcbb9'].record_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>last_name</field>
-        <id>3d6f5ed91ba101106c166464604bcbe5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-07 18:07:47</sys_created_on>
-        <sys_id>6acfd21d1ba101106c166464604bcbe4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-07 18:07:47</sys_updated_on>
-        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>roles</field>
-        <id>3d6f5ed91ba101106c166464604bcbe5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-07 18:07:37</sys_created_on>
-        <sys_id>4ccfd21d1ba101106c166464604bcbec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-07 18:07:37</sys_updated_on>
-        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
-        <value/>
-    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=3d6f5ed91ba101106c166464604bcbe5"/>
 </record_update>

@@ -7,21 +7,21 @@
         <inputs/>
         <mugshots_cache_json/>
         <notes>x_402400_drink_orders ACLs</notes>
-        <order>10</order>
+        <order>7</order>
         <snapshot/>
         <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-07 18:06:07</sys_created_on>
         <sys_id>8e6f9ed91ba101106c166464604bcb3c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_8e6f9ed91ba101106c166464604bcb3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-10 16:50:33</sys_updated_on>
+        <sys_updated_on>2022-02-11 15:00:02</sys_updated_on>
         <table/>
         <test display_value="ACLs - User">716f1ad91ba101106c166464604bcbb5</test>
         <timeout/>
@@ -36,13 +36,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-07 18:06:07</sys_created_on>
         <sys_id>4a6f9ed91ba101106c166464604bcb3d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-10 16:50:33</sys_updated_on>
+        <sys_updated_on>2022-02-11 15:00:03</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
 &#13;
     var glideRecord = new GlideRecord('x_402400_drink_orders');&#13;
-&#13;
+ &#13;
     var defaultValue = false;&#13;
 &#13;
     var tablePermissions = {&#13;
@@ -147,6 +147,7 @@
         name: 'service_offering',&#13;
     }, {&#13;
         name: 'short_description',&#13;
+		write: true&#13;
     }, {&#13;
         name: 'sla_due',&#13;
     }, {&#13;

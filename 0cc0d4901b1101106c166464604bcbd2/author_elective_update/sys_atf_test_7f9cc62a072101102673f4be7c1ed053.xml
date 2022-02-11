@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>GlideRecordUtil</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 13:56:31</sys_created_on>
+        <sys_id>7f9cc62a072101102673f4be7c1ed053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecordUtil</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_test_7f9cc62a072101102673f4be7c1ed053</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 13:56:31</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=7f9cc62a072101102673f4be7c1ed053"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_test_7f9cc62a072101102673f4be7c1ed053</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>GlideRecordUtil</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 13:56:31</sys_created_on><sys_id>7f9cc62a072101102673f4be7c1ed053</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecordUtil</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_test_7f9cc62a072101102673f4be7c1ed053</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-11 13:56:31</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=7f9cc62a072101102673f4be7c1ed053"/></record_update>]]></payload>
+        <payload_hash>128778296</payload_hash>
+        <record_name>GlideRecordUtil</record_name>
+        <reverted_from/>
+        <source>ab47a0ca076901102673f4be7c1ed01e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 13:56:31</sys_created_on>
+        <sys_id>f8acce2a072101102673f4be7c1ed01c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ee91233f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 13:56:31</sys_updated_on>
+        <type>Test</type>
+        <update_guid>34acce2ae12101102c4be7d3235e471c</update_guid>
+        <update_guid_history>34acce2ae12101102c4be7d3235e471c:128778296</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 14:17:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>950392320e45426da0d5c16bc60ee081</sys_id>
+        <sys_metadata>7f9cc62a072101102673f4be7c1ed053</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecordUtil</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_test_7f9cc62a072101102673f4be7c1ed053</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_7f9cc62a072101102673f4be7c1ed053">f8acce2a072101102673f4be7c1ed01c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 14:17:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

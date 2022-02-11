@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 13:57:41</sys_created_on>
+        <sys_id>cacc466a072101102673f4be7c1ed0b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_cacc466a072101102673f4be7c1ed0b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 14:04:42</sys_updated_on>
+        <table/>
+        <test display_value="GlideRecordUtil">7f9cc62a072101102673f4be7c1ed053</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=cacc466a072101102673f4be7c1ed0b6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>cacc466a072101102673f4be7c1ed0b6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 13:57:41</sys_created_on>
+        <sys_id>71ec8a6a072101102673f4be7c1ed02b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 14:04:42</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+&#13;
+    var glideRecord = new GlideRecord('x_402400_drink_orders');&#13;
+    var glideRecordUtil = new gs.GlideRecordUtil();&#13;
+	var fieldList = glideRecordUtil.getFields(glideRecord);&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>cacc466a072101102673f4be7c1ed0b6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 13:57:41</sys_created_on>
+        <sys_id>bdec8a6a072101102673f4be7c1ed02a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 13:57:41</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_step_cacc466a072101102673f4be7c1ed0b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Run Server Side Validation Script</description><display_name>Run Server Side Script</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 13:57:41</sys_created_on><sys_id>cacc466a072101102673f4be7c1ed0b6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Run Server Side Script</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_atf_step_cacc466a072101102673f4be7c1ed0b6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-11 14:04:42</sys_updated_on><table/><test display_value="GlideRecordUtil">7f9cc62a072101102673f4be7c1ed053</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=cacc466a072101102673f4be7c1ed0b6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>cacc466a072101102673f4be7c1ed0b6</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 13:57:41</sys_created_on><sys_id>71ec8a6a072101102673f4be7c1ed02b</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-11 14:04:42</sys_updated_on><value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+&#13;
+    var glideRecord = new GlideRecord('x_402400_drink_orders');&#13;
+    var glideRecordUtil = new gs.GlideRecordUtil();&#13;
+	var fieldList = glideRecordUtil.getFields(glideRecord);&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);</value><variable display_value="Test script">989d9e235324220002c6435723dc3484</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>cacc466a072101102673f4be7c1ed0b6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 13:57:41</sys_created_on><sys_id>bdec8a6a072101102673f4be7c1ed02a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-11 13:57:41</sys_updated_on><value>3.1</value><variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1400706388</payload_hash>
+        <record_name>Run Server Side Script</record_name>
+        <reverted_from/>
+        <source>ab47a0ca076901102673f4be7c1ed01e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 14:04:42</sys_created_on>
+        <sys_id>308e42ea072101102673f4be7c1ed057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ee919b1600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 14:04:42</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>388e42eaff2101101a94af11edab8556</update_guid>
+        <update_guid_history>388e42eaff2101101a94af11edab8556:-1400706388,db5d82aa1d210110de9f05a5dca82d87:87922900,3dec8a6a9621011005b795bbef4de82c:318274806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 14:17:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>089cac382a854de8864701e1e77719f1</sys_id>
+        <sys_metadata>cacc466a072101102673f4be7c1ed0b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_atf_step_cacc466a072101102673f4be7c1ed0b6</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_cacc466a072101102673f4be7c1ed0b6">308e42ea072101102673f4be7c1ed057</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 14:17:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
