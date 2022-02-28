@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-07 18:06:07</sys_created_on>
         <sys_id>8e6f9ed91ba101106c166464604bcb3c</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_8e6f9ed91ba101106c166464604bcb3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-11 15:00:02</sys_updated_on>
+        <sys_updated_on>2022-02-28 16:04:13</sys_updated_on>
         <table/>
         <test display_value="ACLs - User">716f1ad91ba101106c166464604bcbb5</test>
         <timeout/>
@@ -36,9 +36,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-07 18:06:07</sys_created_on>
         <sys_id>4a6f9ed91ba101106c166464604bcb3d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-11 15:00:03</sys_updated_on>
+        <sys_updated_on>2022-02-28 16:04:13</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
 &#13;
     var glideRecord = new GlideRecord('x_402400_drink_orders');&#13;
@@ -46,173 +46,20 @@
     var defaultValue = false;&#13;
 &#13;
     var tablePermissions = {&#13;
-        create: true,&#13;
+        create: true&#13;
     };&#13;
 &#13;
     var specificGlideElements = [{&#13;
-        name: 'drinks',&#13;
+        name: 'drinks'&#13;
     }, {&#13;
-        name: 'order_for',&#13;
+        name: 'order_for'&#13;
     }];&#13;
 &#13;
-    var taskGlideElements = [{&#13;
-        name: 'active',&#13;
-    }, {&#13;
-        name: 'activity_due',&#13;
-    }, {&#13;
-        name: 'additional_assignee_list',&#13;
-    }, {&#13;
-        name: 'agile_story'&#13;
-    }, {&#13;
-        name: 'approval',&#13;
-    }, {&#13;
-        name: 'approval_history',&#13;
-    }, {&#13;
-        name: 'approval_set'&#13;
-    }, {&#13;
-        name: 'assigned_to',&#13;
-    }, {&#13;
-        name: 'assignment_group',&#13;
-    }, {&#13;
-        name: 'business_duration',&#13;
-    }, {&#13;
-        name: 'business_service',&#13;
-    }, {&#13;
-        name: 'calendar_duration',&#13;
-    }, {&#13;
-        name: 'closed_at',&#13;
-    }, {&#13;
-        name: 'closed_by',&#13;
-    }, {&#13;
-        name: 'close_notes',&#13;
-    }, {&#13;
-        name: 'cmdb_ci',&#13;
-    }, {&#13;
-        name: 'comments',&#13;
-    }, {&#13;
-        name: 'comments_and_work_notes',&#13;
-    }, {&#13;
-        name: 'company'&#13;
-    }, {&#13;
-        name: 'contact_type',&#13;
-    }, {&#13;
-        name: 'contract',&#13;
-    }, {&#13;
-        name: 'correlation_display',&#13;
-    }, {&#13;
-        name: 'correlation_id',&#13;
-    }, {&#13;
-        name: 'delivery_plan',&#13;
-    }, {&#13;
-        name: 'delivery_task',&#13;
-    }, {&#13;
-        name: 'description',&#13;
-    }, {&#13;
-        name: 'due_date',&#13;
-    }, {&#13;
-        name: 'escalation',&#13;
-    }, {&#13;
-        name: 'expected_start',&#13;
-    }, {&#13;
-        name: 'follow_up',&#13;
-    }, {&#13;
-        name: 'group_list',&#13;
-    }, {&#13;
-        name: 'impact',&#13;
-    }, {&#13;
-        name: 'knowledge',&#13;
-    }, {&#13;
-        name: 'location',&#13;
-    }, {&#13;
-        name: 'made_sla',&#13;
-    }, {&#13;
-        name: 'number',&#13;
-    }, {&#13;
-        name: 'opened_at',&#13;
-    }, {&#13;
-        name: 'opened_by',&#13;
-    }, {&#13;
-        name: 'order',&#13;
-    }, {&#13;
-        name: 'parent',&#13;
-    }, {&#13;
-        name: 'priority',&#13;
-    }, {&#13;
-        name: 'reassignment_count',&#13;
-    }, {&#13;
-        name: 'rejection_goto',&#13;
-    }, {&#13;
-        name: 'route_reason',&#13;
-    }, {&#13;
-        name: 'service_offering',&#13;
-    }, {&#13;
-        name: 'short_description',&#13;
-		write: true&#13;
-    }, {&#13;
-        name: 'sla_due',&#13;
-    }, {&#13;
-        name: 'state',&#13;
-    }, {&#13;
-        name: 'sys_class_name',&#13;
-    }, {&#13;
-        name: 'sys_domain',&#13;
-    }, {&#13;
-        name: 'sys_domain_path',&#13;
-    }, {&#13;
-        name: 'task_effective_number',&#13;
-    }, {&#13;
-        name: 'time_worked',&#13;
-    }, {&#13;
-        name: 'universal_request',&#13;
-    }, {&#13;
-        name: 'upon_approval',&#13;
-    }, {&#13;
-        name: 'upon_reject',&#13;
-    }, {&#13;
-        name: 'urgency',&#13;
-    }, {&#13;
-        name: 'user_input',&#13;
-    }, {&#13;
-        name: 'variables',&#13;
-    }, {&#13;
-        name: 'watch_list',&#13;
-    }, {&#13;
-        name: 'wf_activity',&#13;
-    }, {&#13;
-        name: 'work_end',&#13;
-    }, {&#13;
-        name: 'work_notes'&#13;
-    }, {&#13;
-        name: 'work_notes_list'&#13;
-    }, {&#13;
-        name: 'work_start',&#13;
-    }];&#13;
+    var taskGlideElements = {&#13;
+        name: 'short_description'&#13;
+    };&#13;
 &#13;
-    var systemGlideElements = [{&#13;
-        name: 'sys_id',&#13;
-    }, {&#13;
-        name: 'sys_created_on',&#13;
-    }, {&#13;
-        name: 'sys_created_by',&#13;
-    }, {&#13;
-        name: 'sys_updated_on',&#13;
-    }, {&#13;
-        name: 'sys_updated_by',&#13;
-    }, {&#13;
-        name: 'sys_mod_count',&#13;
-    }, {&#13;
-        name: 'sys_tags',&#13;
-        write: true&#13;
-    }];&#13;
-&#13;
-    var glideElements = [].concat(specificGlideElements, taskGlideElements, systemGlideElements);&#13;
-&#13;
-    describe('Number of elements in glideElements array', function() {&#13;
-        it('should equal number of GlideElements in ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
-            var EXTRA_variables_GLIDE_ELEMENTS = 2;&#13;
-            expect(glideElements.length).toBe(glideRecord.getElements().length - EXTRA_variables_GLIDE_ELEMENTS);&#13;
-        });&#13;
-    });&#13;
+    var glideElements = [].concat(specificGlideElements, taskGlideElements);&#13;
 &#13;
     describe('Role on ' + glideRecord.getClassDisplayValue() + ' table', function() {&#13;
 &#13;
