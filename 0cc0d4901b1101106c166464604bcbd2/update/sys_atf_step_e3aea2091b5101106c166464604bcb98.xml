@@ -4,12 +4,13 @@
         <copied_from/>
         <description>Validate that the form matches the following condition:
 Number is not empty
-and Order for is System Administrator
+and Order for = {{Step 11: Create a User.User}}
 and State = Open
 and Approval = Not Yet Requested
 and Assigned to is empty
 With a failure timeout of 5 Seconds</description>
         <display_name>Field Values Validation</display_name>
+        <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
@@ -20,14 +21,14 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-25 14:20:36</sys_created_on>
         <sys_id>e3aea2091b5101106c166464604bcb98</sys_id>
-        <sys_mod_count>101</sys_mod_count>
+        <sys_mod_count>102</sys_mod_count>
         <sys_name>Field Values Validation</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_e3aea2091b5101106c166464604bcb98</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-10 16:09:38</sys_updated_on>
+        <sys_updated_on>2022-03-30 19:16:24</sys_updated_on>
         <table>x_402400_drink_orders</table>
         <test display_value="Standard UI - Order Form - User">69a4e5b01b5101106c166464604bcb88</test>
         <timeout>1970-01-01 00:00:05</timeout>
@@ -70,11 +71,23 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-25 14:20:36</sys_created_on>
         <sys_id>bb1faa091b5101106c166464604bcba7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-28 15:47:15</sys_updated_on>
-        <value>numberISNOTEMPTY^order_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=1^approval=not requested^assigned_toISEMPTY^EQ</value>
+        <sys_updated_on>2022-03-30 19:16:25</sys_updated_on>
+        <value>numberISNOTEMPTY^order_for={{step['d4d4adb01b5101106c166464604bcbfa'].user}}^state=1^approval=not requested^assigned_toISEMPTY^EQ</value>
         <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=e3aea2091b5101106c166464604bcb98"/>
+    <sys_element_mapping action="delete_multiple" query="id=e3aea2091b5101106c166464604bcb98"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e3aea2091b5101106c166464604bcb98</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-30 19:16:25</sys_created_on>
+        <sys_id>89985dbd876201103a8dfcc7cebb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-30 19:16:25</sys_updated_on>
+        <table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table>
+        <value>numberISNOTEMPTY^order_for={{step['d4d4adb01b5101106c166464604bcbfa'].user}}^state=1^approval=not requested^assigned_toISEMPTY^EQ</value>
+    </sys_element_mapping>
 </record_update>
