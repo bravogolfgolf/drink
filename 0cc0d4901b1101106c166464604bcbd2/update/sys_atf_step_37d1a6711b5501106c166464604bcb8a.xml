@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-27 21:18:09</sys_created_on>
         <sys_id>37d1a6711b5501106c166464604bcb8a</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_atf_step_37d1a6711b5501106c166464604bcb8a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-10 21:28:55</sys_updated_on>
+        <sys_updated_on>2022-07-29 17:10:54</sys_updated_on>
         <table/>
         <test display_value="Environment">8d6298141b1101106c166464604bcbba</test>
         <timeout/>
@@ -50,9 +50,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-27 21:18:10</sys_created_on>
         <sys_id>c0e1a6711b5501106c166464604bcba6</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-10 21:28:55</sys_updated_on>
+        <sys_updated_on>2022-07-29 17:10:54</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
 &#13;
     var count = -1;&#13;
@@ -95,7 +95,7 @@
     function fieldExpectedCount(table, expected) {&#13;
         var gaSysDictionary = new GlideAggregate('sys_dictionary');&#13;
         gaSysDictionary.addQuery('name', '=', table);&#13;
-		gaSysDictionary.addNotNullQuery('element')&#13;
+		gaSysDictionary.addNotNullQuery('element');&#13;
         gaSysDictionary.addAggregate('COUNT');&#13;
         gaSysDictionary.query();&#13;
         if (gaSysDictionary.next()) {&#13;
