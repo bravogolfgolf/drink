@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">a4dffcf071b10210e7bb89b6377d6252</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">e8dffcf06cb10210d912aae70b5c9c50</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-23 16:51:55</sys_created_on>
+        <sys_id>e4dffcf0b3b102104c729eb7ea6c4d51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_e4dffcf0b3b102104c729eb7ea6c4d51</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-23 16:51:55</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

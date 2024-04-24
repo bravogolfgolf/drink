@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Drink">2d86e078973102106ab9b12de053af6f</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Home</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="Home">d75768f8973102106ab9b12de053af69</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 15:05:00</sys_created_on>
+        <sys_id>e757ecf8973102106ab9b12de053af87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_ux_app_route_e757ecf8973102106ab9b12de053af87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 15:17:48</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=e757ecf8973102106ab9b12de053af87"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>3614acfddbf23d1002d917291396198b</instance_id>
+        <instance_name>dev228491</instance_name>
+        <name>sys_ux_app_route_e757ecf8973102106ab9b12de053af87</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Drink">2d86e078973102106ab9b12de053af6f</app_config><description/><extension_point/><fields/><icon/><name>Home</name><optional_parameters/><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>home</route_type><screen_type display_value="Home">d75768f8973102106ab9b12de053af69</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 15:05:00</sys_created_on><sys_id>e757ecf8973102106ab9b12de053af87</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Home</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_ux_app_route_e757ecf8973102106ab9b12de053af87</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 15:17:48</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=e757ecf8973102106ab9b12de053af87"/></record_update>]]></payload>
+        <payload_hash>543216435</payload_hash>
+        <record_name>Home</record_name>
+        <reverted_from/>
+        <source>3b6320b4973102106ab9b12de053af36</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 15:17:48</sys_created_on>
+        <sys_id>834aa87c973102106ab9b12de053af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f0b88d7850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 15:17:48</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>4b4aa87c4c310210102d52ddf544a26c</update_guid>
+        <update_guid_history>4b4aa87c4c310210102d52ddf544a26c:543216435,2b57ecf86431021095f1236a16edc989:2115648788</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 15:18:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>48a4d9f23d3440809ee3724ba6858400</sys_id>
+        <sys_metadata>e757ecf8973102106ab9b12de053af87</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_e757ecf8973102106ab9b12de053af87</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_e757ecf8973102106ab9b12de053af87">834aa87c973102106ab9b12de053af6d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 15:18:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

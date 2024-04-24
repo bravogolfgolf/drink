@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-23 16:52:01</sys_created_on>
+        <sys_id>cfdfb03497b102106ab9b12de053af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_402400_drink.admin</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_security_acl/>
+        <sys_update_name>sys_security_acl_role_cfdfb03497b102106ab9b12de053af54</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-23 16:52:01</sys_updated_on>
+        <sys_user_role display_value="x_402400_drink.admin" name="x_402400_drink.admin">a59c5e451b1101106c166464604bcb56</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

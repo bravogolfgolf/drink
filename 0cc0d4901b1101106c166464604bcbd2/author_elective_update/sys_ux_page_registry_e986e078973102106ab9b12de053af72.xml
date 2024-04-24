@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>2d86e078973102106ab9b12de053af6f</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>drink</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 15:01:19</sys_created_on>
+        <sys_id>e986e078973102106ab9b12de053af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Drink</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_ux_page_registry_e986e078973102106ab9b12de053af72</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 15:01:19</sys_updated_on>
+        <title>Drink</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>3614acfddbf23d1002d917291396198b</instance_id>
+        <instance_name>dev228491</instance_name>
+        <name>sys_ux_page_registry_e986e078973102106ab9b12de053af72</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>2d86e078973102106ab9b12de053af6f</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>drink</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 15:01:19</sys_created_on><sys_id>e986e078973102106ab9b12de053af72</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Drink</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_ux_page_registry_e986e078973102106ab9b12de053af72</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 15:01:19</sys_updated_on><title>Drink</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-896213901</payload_hash>
+        <record_name>Drink</record_name>
+        <reverted_from/>
+        <source>3b6320b4973102106ab9b12de053af36</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 15:01:19</sys_created_on>
+        <sys_id>698620f8973102106ab9b12de053afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f0b79c00f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 15:01:19</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>ad8620f802310210925736fddb343bd9</update_guid>
+        <update_guid_history>ad8620f802310210925736fddb343bd9:-896213901</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 16:50:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0bdd9e3138f64bf0813bd6c9ebdff7c9</sys_id>
+        <sys_metadata>e986e078973102106ab9b12de053af72</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Drink</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_e986e078973102106ab9b12de053af72</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_e986e078973102106ab9b12de053af72">698620f8973102106ab9b12de053afda</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 16:50:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

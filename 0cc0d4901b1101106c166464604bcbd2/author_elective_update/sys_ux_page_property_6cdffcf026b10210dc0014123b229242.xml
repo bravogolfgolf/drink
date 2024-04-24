@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">14dffcf097b102106ab9b12de053af11</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">acdffcf084b1021026b2c3c7cc80ba62</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-23 16:51:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>6cdffcf026b10210dc0014123b229242</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_update_name>sys_ux_page_property_6cdffcf026b10210dc0014123b229242</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-23 16:51:54</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_402400_drink.14dffcf097b102106ab9b12de053af11.route.chrome_header.acdffcf084b1021026b2c3c7cc80ba62</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Drink">0cc0d4901b1101106c166464604bcbd2</application>
+        <file_path/>
+        <instance_id>3614acfddbf23d1002d917291396198b</instance_id>
+        <instance_name>dev228491</instance_name>
+        <name>sys_ux_page_property_6cdffcf026b10210dc0014123b229242</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">14dffcf097b102106ab9b12de053af11</page><required_translations>[]</required_translations><route display_value="Landing Page">acdffcf084b1021026b2c3c7cc80ba62</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-04-23 16:51:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>6cdffcf026b10210dc0014123b229242</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package><sys_policy/><sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope><sys_update_name>sys_ux_page_property_6cdffcf026b10210dc0014123b229242</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-04-23 16:51:54</sys_updated_on><type>json</type><unique_name>x_402400_drink.14dffcf097b102106ab9b12de053af11.route.chrome_header.acdffcf084b1021026b2c3c7cc80ba62</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-779810168</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 16:53:51</sys_created_on>
+        <sys_id>42404d3497b102106ab9b12de053af3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f0be0c6af0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 16:53:51</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>02404d344bb102100078423183158f3b</update_guid>
+        <update_guid_history>02404d344bb102100078423183158f3b:-779810168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 16:53:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>3a3ae55c06b6444b9875cf30a8f42471</sys_id>
+        <sys_metadata>6cdffcf026b10210dc0014123b229242</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
+        <sys_scope_delete display_value="">22021889848d429c9ecfda321b032471</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_6cdffcf026b10210dc0014123b229242</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_6cdffcf026b10210dc0014123b229242">42404d3497b102106ab9b12de053af3b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 16:53:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
