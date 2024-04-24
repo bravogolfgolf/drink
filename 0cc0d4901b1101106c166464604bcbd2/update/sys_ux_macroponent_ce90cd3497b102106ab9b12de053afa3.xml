@@ -77,7 +77,7 @@
         },
         "maxColumns" : {
           "type" : "JSON_LITERAL",
-          "value" : null
+          "value" : 1
         },
         "limit" : {
           "type" : "JSON_LITERAL",
@@ -188,7 +188,7 @@
         }
       },
       "eventMappings" : [ {
-        "eventMappingId" : "clvdzljxdaaaauwccahhrceetccaegggg",
+        "eventMappingId" : "clveagchbaaaaffkccahhrrlbbvyqtn",
         "isConfiguration" : false,
         "offRowStorageId" : null,
         "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
@@ -205,66 +205,87 @@
           "conditional" : null,
           "declarativeAction" : null,
           "event" : {
-            "apiName" : "x_402400_drink.NAV_ITEM_SELECTED_RELAY_ce90cd3497b102106ab9b12de053afa3",
+            "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
             "payload" : {
               "type" : "MAP_CONTAINER",
               "container" : {
-                "route" : {
+                "propName" : {
                   "type" : "JSON_LITERAL",
-                  "value" : "order"
+                  "value" : "orderSysId"
                 },
-                "fields" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : {
-                    "table" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "x_402400_drink_orders"
-                    },
-                    "sysId" : {
-                      "type" : "EVENT_PAYLOAD_BINDING",
-                      "binding" : {
-                        "address" : [ "sys_id" ]
-                      }
-                    }
+                "value" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "sys_id" ]
                   }
-                },
-                "params" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "redirect" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "passiveNavigation" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "title" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "multiInstField" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "targetRoute" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "external" : null
+                }
               }
             },
-            "sysId" : "e53b35c5973542106ab9b12de053afc1"
+            "sysId" : "32408b42ff7a10109046e490703bf176"
           },
           "operation" : null,
-          "targetId" : "clvdzljxdaaaauxccahhrjoggnjvocc",
+          "targetId" : "clveagchbaaaafflccahhrccpqjtxqo",
           "type" : "EVENT"
         } ]
       } ],
-      "slot" : null,
+      "slot" : "",
       "definition" : {
         "id" : "2b1c080881e05dc63b917044290b233f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    }, {
+      "elementId" : "orderDisplayOnlyForm",
+      "elementLabel" : "OrderDisplayOnlyForm",
+      "propertyValues" : {
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : "ess"
+        },
+        "readOnlyForm" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "workspaceConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : "7b24ceae5304130084acddeeff7b12a3"
+        },
+        "sysId" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "orderSysId" ]
+          }
+        },
+        "forcedViewName" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_402400_drink_orders"
+        },
+        "inUiBuilder" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "",
+      "definition" : {
+        "id" : "f4d3254a798ef092d9023d408f257789",
         "type" : "MACROPONENT"
       },
       "overrides" : null,
@@ -282,10 +303,10 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"ordersList","styles":{}}],
+        "items" : [{"element_id":"ordersList","styles":{"flex":"0 1 auto"}},{"element_id":"orderDisplayOnlyForm","styles":{}}],
         "root" : null,
         "rules" : null,
-        "styles" : {"flex-direction":"column"},
+        "styles" : {"flex-direction":"row","justify-content":"center","display":"flex","grid-template-columns":"1fr 1fr","grid-template-rows":"1fr 1fr","grid-auto-rows":"1fr","grid-auto-columns":"1fr","grid-auto-flow":"row"},
         "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
         "type" : "flex"
       },
@@ -303,7 +324,19 @@
   "styles" : null
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "86c07a8997f542106ab9b12de053afdc",
+    "type" : "GRAPHQL"
+  },
+  "dependencies" : { },
+  "elementId" : "orders",
+  "elementLabel" : "Orders",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
         <description/>
         <dispatched_events>e53b35c5973542106ab9b12de053afc1</dispatched_events>
         <ext_controller_dep/>
@@ -317,7 +350,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"ordersContainer","styles":{"width":"100%"}}],
+    "items" : [{"element_id":"ordersContainer","styles":{"width":"100%","flex":"1 0 auto"}},{"element_id":"orderDisplayOnlyForm","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -338,19 +371,30 @@
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
+        <state_properties>[ {
+  "name" : "orderSysId",
+  "label" : "orderSysId",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1aa7a43c973102106ab9b12de053af60"
+  }
+} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-23 16:55:13</sys_created_on>
         <sys_id>ce90cd3497b102106ab9b12de053afa3</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Orders</sys_name>
         <sys_package display_value="Drink" source="x_402400_drink">0cc0d4901b1101106c166464604bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Drink">0cc0d4901b1101106c166464604bcbd2</sys_scope>
         <sys_update_name>sys_ux_macroponent_ce90cd3497b102106ab9b12de053afa3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-24 16:18:24</sys_updated_on>
+        <sys_updated_on>2024-04-24 21:03:49</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=ce90cd3497b102106ab9b12de053afa3"/>
 </record_update>
